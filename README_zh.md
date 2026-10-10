@@ -1,6 +1,6 @@
-# CLIP–Visual Jev：SNLI-VE 三分类研究包
+# CLIP–Visual Jev：SNLI-VE 三分类研究包  
 
-研究目标是提高基于 CLIP 的 SNLI-VE E/N/C 分类。Amazon 不作为主要目标。本包不使用 Qwen2.5，不引入自造 q/r、充分性头或所谓内部置信机制。
+研究目标是提高基于 CLIP 的 SNLI-VE E/N/C 分类。Amazon 不作为主要目标。
 
 ## 已有 100 条混淆矩阵
 
@@ -69,15 +69,12 @@ softmax 只在这三个候选分数上归一化，是条件于选项集合的分
 1. 将 `CLIP_Visual_Jev_SNLI_VE.ipynb` 上传到 Colab。它嵌入全部必要脚本，无需上传源码目录。选择支持 BF16 的 GPU（L4/A100）；显存占用尚未实测。
 2. 安装单元固定官方记录的软件版本。它使用官方 CUDA 13.0 PyTorch 构建，要求 Colab 驱动兼容；若安装或 CUDA 检查失败，先换兼容运行环境。不要静默换版本后混合结果。安装完成后重启会话，再从路径设置单元继续。
 3. 挂载 Drive，设置持久化 `WORK` 和已合法获取的 `flickr30k-images` 目录 `IMAGES`。图片不包含在交付物中；参照 SNLI-VE 原仓库下载说明。HF 需要认证时通过 Colab secrets/HF 登录配置，不在 notebook 写 token。
-4. Notebook 写出代码，下载固定版本注释、生成清单、审计图片。若已有清单，则复用；不要为了得到好分数换种子。首次调通可另建 smoke 目录，使用少量图像，但不能把 smoke 当正式结果。
-5. 先对 train/val_fit/val_select 生成 base 与 Jev logits；支持按 sample_id 续跑，恢复时检查配置一致性。推理逐条写入并 flush，意外断线造成最后一行损坏时备份后仅移除不完整尾行，不删除已完成记录。
-6. 冻结校准；提取 CLIP train/val 特征，训练三种 student。每个阶段使用独立进程，释放教师 GPU 内存。
-7. 最后生成 test logits 与 CLIP test 特征，输出两个测试报告。已完成结果不能覆写。下载或保留 results、predictions、manifests、features/clip_revision.json、students/selection.json 和环境记录。
+4. flickr30k的文件链接：https://drive.google.com/drive/folders/1mOWFqmXrfoOtT-Ye9rQsLeSgck-1qpgt?usp=drive_link
+5. Notebook 写出代码，下载固定版本注释、生成清单、审计图片。若已有清单，则复用；不要为了得到好分数换种子。首次调通可另建 smoke 目录，使用少量图像，但不能把 smoke 当正式结果。
+6. 先对 train/val_fit/val_select 生成 base 与 Jev logits；支持按 sample_id 续跑，恢复时检查配置一致性。推理逐条写入并 flush，意外断线造成最后一行损坏时备份后仅移除不完整尾行，不删除已完成记录。
+7. 冻结校准；提取 CLIP train/val 特征，训练三种 student。每个阶段使用独立进程，释放教师 GPU 内存。
+8. 最后生成 test logits 与 CLIP test 特征，输出两个测试报告。已完成结果不能覆写。下载或保留 results、predictions、manifests、features/clip_revision.json、students/selection.json 和环境记录。
 
 命令行等价入口：`python study.py --help`、`python student.py --help`。若换成 FP16/T4，显式传 `--dtype float16`，单独命名实验目录；它不是模型卡 BF16 条件的等价复现。不要随意降低图像分辨率或使用量化来混称同一设置。
-
-## 验证范围与交付状态
-
-本地无 PyTorch/CUDA 模型运行环境，未运行 Qwen 权重、适配器推理或 CLIP 训练；没有生成任何真实模型性能提升结论。已经实际获取并核实官方推理代码、模型配置、版本 ID，下载三个官方划分的固定版本注释并生成 7800 条样本清单。CPU 单元检查覆盖矩阵计算、E/C/N→E/N/C 映射、温度不改变决策、bias 方向、抽样可复现与隔离、冲突标签剔除、缺失预测拒绝、校准及配对 bootstrap。GPU 路径仍须在 Colab 完成端到端验收。
 
 来源：以上接口依据固定版本的官方代码与模型卡；[Qwen3-VL 模型卡](https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct)；[CLIP Transformers 文档](https://huggingface.co/docs/transformers/model_doc/clip)。依赖版本来自官方 code/requirements.txt；本包的抽样、校准、student 是本研究新增方法，不冒充官方算法。
