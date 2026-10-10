@@ -69,7 +69,7 @@ softmax 只在这三个候选分数上归一化，是条件于选项集合的分
 1. 将 `CLIP_Visual_Jev_SNLI_VE.ipynb` 上传到 Colab。它嵌入全部必要脚本，无需上传源码目录。选择支持 BF16 的 GPU（L4/A100）；显存占用尚未实测。
 2. 安装单元固定官方记录的软件版本。它使用官方 CUDA 13.0 PyTorch 构建，要求 Colab 驱动兼容；若安装或 CUDA 检查失败，先换兼容运行环境。不要静默换版本后混合结果。安装完成后重启会话，再从路径设置单元继续。
 3. 挂载 Drive，设置持久化 `WORK` 和已合法获取的 `flickr30k-images` 目录 `IMAGES`。图片不包含在交付物中；参照 SNLI-VE 原仓库下载说明。HF 需要认证时通过 Colab secrets/HF 登录配置，不在 notebook 写 token。
-4. flickr30k的文件链接：https://drive.google.com/drive/folders/1mOWFqmXrfoOtT-Ye9rQsLeSgck-1qpgt?usp=drive_link
+4. flickr30k的文件从hugging face里拿
 5. Notebook 写出代码，下载固定版本注释、生成清单、审计图片。若已有清单，则复用；不要为了得到好分数换种子。首次调通可另建 smoke 目录，使用少量图像，但不能把 smoke 当正式结果。
 6. 先对 train/val_fit/val_select 生成 base 与 Jev logits；支持按 sample_id 续跑，恢复时检查配置一致性。推理逐条写入并 flush，意外断线造成最后一行损坏时备份后仅移除不完整尾行，不删除已完成记录。
 7. 冻结校准；提取 CLIP train/val 特征，训练三种 student。每个阶段使用独立进程，释放教师 GPU 内存。
