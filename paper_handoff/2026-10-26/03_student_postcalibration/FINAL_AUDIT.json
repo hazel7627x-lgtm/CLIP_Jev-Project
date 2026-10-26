@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "models": 9,
+  "exported_prediction_rows": 14400,
+  "unique_examples": 800,
+  "metrics_max_abs_error": 2.220446049250313e-16,
+  "temperature_grid_minima_verified": 9,
+  "CE_prior_results_reproduced": true,
+  "test_evaluated": false,
+  "scope": "400 val_fit + 400 val_select, reused developmental data; fixed three seeds; not independent confirmation"
+}

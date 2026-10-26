@@ -1,0 +1,122 @@
+{
+  "kind": "Stage2_KD_student_post_temperature_v1",
+  "locked_at_utc": "2026-10-26T03:45:39.966120+00:00",
+  "models": [
+    {
+      "id": "CE_20261010",
+      "method": "CE",
+      "seed": 20261010,
+      "checkpoint_sha256": "9aacd364c94b4bb5908aebc4fda71615d2b3202def2b51723a8caa3644e891ce",
+      "best_epoch": 23
+    },
+    {
+      "id": "CE_20261011",
+      "method": "CE",
+      "seed": 20261011,
+      "checkpoint_sha256": "912a21af6b911195463e18454a7db83da07c12f577ff34d420c0a6a9bc8f5f2a",
+      "best_epoch": 22
+    },
+    {
+      "id": "CE_20261012",
+      "method": "CE",
+      "seed": 20261012,
+      "checkpoint_sha256": "6576beb1d68c170e92925067f6a9fd834cf6edc3dd155e723bb91d7018b15d92",
+      "best_epoch": 21
+    },
+    {
+      "id": "KD_raw_20261010",
+      "method": "KD_raw",
+      "seed": 20261010,
+      "checkpoint_sha256": "4f2b53ea1887fd5d8630604fde0b07da46d2539f13f16adf5f9de6461053ec7b",
+      "best_epoch": 28
+    },
+    {
+      "id": "KD_raw_20261011",
+      "method": "KD_raw",
+      "seed": 20261011,
+      "checkpoint_sha256": "3d905cc39a34bab5a4a3021d82899be3d2c226e80a44a2060cad035f7d03e9fc",
+      "best_epoch": 21
+    },
+    {
+      "id": "KD_raw_20261012",
+      "method": "KD_raw",
+      "seed": 20261012,
+      "checkpoint_sha256": "c1a157a362715deb96d1654cfead88c8d6e2c4506be34401210dfc19bfd016d5",
+      "best_epoch": 28
+    },
+    {
+      "id": "KD_calibrated_20261010",
+      "method": "KD_calibrated",
+      "seed": 20261010,
+      "checkpoint_sha256": "c100fee94cf2d82c8e1656d4be468c1655c79a81817b678436c28e148c6a4a4f",
+      "best_epoch": 17
+    },
+    {
+      "id": "KD_calibrated_20261011",
+      "method": "KD_calibrated",
+      "seed": 20261011,
+      "checkpoint_sha256": "c2a4ee53871bf0e222c045d8e0e9769573007ddc72a1a1ee698e9cd0f3010381",
+      "best_epoch": 21
+    },
+    {
+      "id": "KD_calibrated_20261012",
+      "method": "KD_calibrated",
+      "seed": 20261012,
+      "checkpoint_sha256": "35b2d9d24c1b2926ce621fbfa428028cf7088e55dc39d7e2a2ec84338c5e5cec",
+      "best_epoch": 28
+    }
+  ],
+  "fit": "val_fit 400 only; one positive scalar T per checkpoint; minimize NLL; ties prefer abs(log(T)) closest to 0",
+  "temperature_grid": {
+    "min": 0.05,
+    "max": 20.0,
+    "geomspace_points": 401,
+    "include_one": true
+  },
+  "selection": "CE common lr=.0003; KD raw and calibrated alpha=.75 from previous developmental selection; no new selection or training",
+  "report": "val_select 400 reused developmental descriptive comparison; no new independent confirmation; no test evaluation",
+  "primary_comparison": "KD_calibrated raw versus KD_raw post-temperature; NLL and ECE10; also show all families before/after",
+  "replay": "CPU float32 torch 2.11.0; eval mode; chunks256; max abs saved-logit difference <=1e-4 and identical predictions required. Canonical val_select logits retained from original GPU records.",
+  "statistics": "Means and sample SD over fixed 3 seeds, paired seed differences; not confidence intervals",
+  "archives": {
+    "Stage2_Hazel_results_f54a0fef.zip": "c94a2e5487f261a141c826e38fc3a604f33cd6b4301ece4487f06993352abe74",
+    "CLIP_Jev_CE三学习率_两种LS_补充-20261023T092504Z-1-001.zip": "51aca99c1e2372e6cc61c23f26cc8a7b935a90f3f3065198faa1ad9980b60c12"
+  },
+  "inputs_sha256": {
+    "inputs/val_fit.npz": "6027def1a024462f8d6694d24eda024bbbd4e0b15a2ba90bf3df23e5cb4e46bb",
+    "inputs/val_fit.jsonl": "a58e2f00047f159ca7b6415564ff03b699c68897fea805fbfb9088729fdbbaf4",
+    "inputs/val_select.npz": "464f055b1cd4baca1e6e2c280cda0eec8e988bd994939a4a448554915c6640d1",
+    "inputs/val_select.jsonl": "da47eb2435d159d7e9343314c593ec4e0775b34d7a337c472b2d35b240b251d2",
+    "inputs/val_fit_meta.json": "0173de239a63a2a686ead9efb1d0b91e8ae0d3f1a552ee80ada65d301f3b9cbe",
+    "inputs/models/CE_20261010.pt": "9aacd364c94b4bb5908aebc4fda71615d2b3202def2b51723a8caa3644e891ce",
+    "inputs/models/CE_20261010_done.json": "b46744b24259c15017e5d9ac89e6e3d554f5d376e0ba13f57914a7e3c9a157ea",
+    "inputs/reference/CE_20261010.csv": "add4722a3bb71b1f629c7b00b1fec1192bd8aff10713db8204aa694464632831",
+    "inputs/models/CE_20261011.pt": "912a21af6b911195463e18454a7db83da07c12f577ff34d420c0a6a9bc8f5f2a",
+    "inputs/models/CE_20261011_done.json": "da70fb33489f1ff1a3fcf3b24cba92bfa62f67b9d203a1e62401d77fb8a84e94",
+    "inputs/reference/CE_20261011.csv": "c6f54ea531e390b29c96c3f7fa2ca20bc1598617e9a47c8e986a812a245dd652",
+    "inputs/models/CE_20261012.pt": "6576beb1d68c170e92925067f6a9fd834cf6edc3dd155e723bb91d7018b15d92",
+    "inputs/models/CE_20261012_done.json": "720da4a10f1cc7259508618b0115966fa97de044c0319b54bd9ff75c75bebd31",
+    "inputs/reference/CE_20261012.csv": "f8f8c342c46b283754868112f7c58a5adfa0e222da0531cca9a047916bf2802f",
+    "inputs/models/KD_raw_20261010.pt": "4f2b53ea1887fd5d8630604fde0b07da46d2539f13f16adf5f9de6461053ec7b",
+    "inputs/models/KD_raw_20261010_done.json": "588b5c0e08c9f72051fbbd2d04f5218e5c975bd9d92b61db59db504189645834",
+    "inputs/reference/KD_raw_20261010.csv": "64e754b9935ac7d61696018585c27c82dd2ac504cc318f54d2a708e3cb8fc4c2",
+    "inputs/models/KD_raw_20261011.pt": "3d905cc39a34bab5a4a3021d82899be3d2c226e80a44a2060cad035f7d03e9fc",
+    "inputs/models/KD_raw_20261011_done.json": "a1b0417b90b1c6f9a3b94ff4db47b3777db4dbb4c4655e8a435135644243b347",
+    "inputs/reference/KD_raw_20261011.csv": "fcef04ab8dbfd7cab802fefab493346894ac395e3566e58dc303d8272c3c280c",
+    "inputs/models/KD_raw_20261012.pt": "c1a157a362715deb96d1654cfead88c8d6e2c4506be34401210dfc19bfd016d5",
+    "inputs/models/KD_raw_20261012_done.json": "c1b1c466c187def9e10408ba88b42591b5623eb8b8631c61c056af8eca47ca6a",
+    "inputs/reference/KD_raw_20261012.csv": "dcf1c4b7be143ac7556ff969e2cce454fa1ebe9196461a9ffcca861c3bf645ee",
+    "inputs/models/KD_calibrated_20261010.pt": "c100fee94cf2d82c8e1656d4be468c1655c79a81817b678436c28e148c6a4a4f",
+    "inputs/models/KD_calibrated_20261010_done.json": "a2488b5c43ed0e29eba6287a598753da6cf528bd56b6ee719a56118201929bc8",
+    "inputs/reference/KD_calibrated_20261010.csv": "01fa0f970700e36f7c2e4ed8a6ed6e9795b9d653a9b046cb7957f7af7e5da37f",
+    "inputs/models/KD_calibrated_20261011.pt": "c2a4ee53871bf0e222c045d8e0e9769573007ddc72a1a1ee698e9cd0f3010381",
+    "inputs/models/KD_calibrated_20261011_done.json": "251a8aa41d5c04dd3af3a7b505478394b1cdb8061b39d910a45566f8e2d558a4",
+    "inputs/reference/KD_calibrated_20261011.csv": "68fc38f23555c6bd86ec8a8ac3f5927f5861f1544634cd9cedc0a7678c30df21",
+    "inputs/models/KD_calibrated_20261012.pt": "35b2d9d24c1b2926ce621fbfa428028cf7088e55dc39d7e2a2ec84338c5e5cec",
+    "inputs/models/KD_calibrated_20261012_done.json": "826436737a6682d937bb2e0e77e1bbcfd5c9d595f0c5bce531d2f0a81f504704",
+    "inputs/reference/KD_calibrated_20261012.csv": "3aafaff6a8e15e7d527203aed19deeb6c56a603bb3aed1f842d09eab05b2b79a",
+    "inputs/CE_previous_calibration.json": "24d30062e0147e585000fb499bb151118a0043599ce053ac594a1a0176659042",
+    "inputs/Day2_reference_per_seed.csv": "519ffd27eccf27e19431d6813a8f3a1db976f27eaad6382e8af5f2dbd6dc7c08",
+    "run_postcal.py": "d2a364a3cd17c74fdfd9ec077a5afe8be687fe17322b3623613096c5c7f27c81"
+  }
+}

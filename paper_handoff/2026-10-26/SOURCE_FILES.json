@@ -1,0 +1,1042 @@
+[
+  {
+    "file": "01_writing/论文主线与收尾范围.md",
+    "source": "work/project_master_20261026/给Hazel_论文主线与收尾范围_20261026.md",
+    "sha256": "00e0d148ee171b9e730327bfd5f90b9244161ff85dfc3ea9b050a7ba94dd3ad4"
+  },
+  {
+    "file": "06_project_history/CLIP_Jev项目总账与论文主线.md",
+    "source": "work/project_master_20261026/CLIP_Jev项目总账与论文主线.md",
+    "sha256": "188a2c9b5037dc8adcf3b55311c7e314df5c097c54144f37211ec78a9e0591a3"
+  },
+  {
+    "file": "06_project_history/分阶段结果索引_禁止跨阶段混合平均.csv",
+    "source": "work/project_master_20261026/分阶段结果索引_禁止跨阶段混合平均.csv",
+    "sha256": "840adb15f88d3a8998522927f6f67e78e09fc98bddefa31c346842b6149e6f64"
+  },
+  {
+    "file": "06_project_history/Stage1_checkpoint_inventory.json",
+    "source": "work/project_master_20261026/Stage1_checkpoint_inventory.json",
+    "sha256": "8c4aeda4151b66a44b4e335880fd3a379a1320e355f97a8fa8446a857dee818d"
+  },
+  {
+    "file": "06_project_history/Stage2_checkpoint_inventory.json",
+    "source": "work/project_master_20261026/Stage2_checkpoint_inventory.json",
+    "sha256": "dfb4e4adb3b971fa22579daa7c7804d1886fb36217d66511e0e3f7eebfa9b79d"
+  },
+  {
+    "file": "06_project_history/old_base_config_check.json",
+    "source": "work/project_master_20261026/old_base_config_check.json",
+    "sha256": "528b6510f6d093865ff86f62cc35a525a8c7806e736130811800a154fab16f15"
+  },
+  {
+    "file": "06_project_history/总账核验.json",
+    "source": "work/project_master_20261026/总账核验.json",
+    "sha256": "6125ce1d59e9163a791f449ed30553d6e84daa42a386e7e007c30c7a974ea85d"
+  },
+  {
+    "file": "02_stage2_results/changed_predictions.csv",
+    "source": "work/stage2_unified_review_20261026/results/changed_predictions.csv",
+    "sha256": "8e6f8eb09a469e8ea4e7390aa9a0118fb2719a92b36519b6165b5b0afff7d4d2"
+  },
+  {
+    "file": "02_stage2_results/class_transition_summary.csv",
+    "source": "work/stage2_unified_review_20261026/results/class_transition_summary.csv",
+    "sha256": "44148409d0d5afee6c42f4184c62682485bedf1829333ab9ea0eb2785435971d"
+  },
+  {
+    "file": "02_stage2_results/error_transitions_per_seed.csv",
+    "source": "work/stage2_unified_review_20261026/results/error_transitions_per_seed.csv",
+    "sha256": "a41e74804a5c1df7bb9260a64d3433267d535960616f0035b17a012cae3e76df"
+  },
+  {
+    "file": "02_stage2_results/error_transitions_summary.csv",
+    "source": "work/stage2_unified_review_20261026/results/error_transitions_summary.csv",
+    "sha256": "b27252452f7042dd9dbf5b6f01e84027d9b487b48cbc19ed5c42216010183e0b"
+  },
+  {
+    "file": "02_stage2_results/execution_environment.json",
+    "source": "work/stage2_unified_review_20261026/results/execution_environment.json",
+    "sha256": "f8e2fd094c298e1f33e7bb0b9672ef8568a9ee5f9026a762111ab554b4f34385"
+  },
+  {
+    "file": "02_stage2_results/FINAL_AUDIT.json",
+    "source": "work/stage2_unified_review_20261026/results/FINAL_AUDIT.json",
+    "sha256": "c3bbe23d2618ea065feafa2bdbef283873ac24468bab6bf363d8e2b6ab955276"
+  },
+  {
+    "file": "02_stage2_results/independent_CPU_replay.csv",
+    "source": "work/stage2_unified_review_20261026/results/independent_CPU_replay.csv",
+    "sha256": "3fbca4402af2406623c1ed1dc9726cb4a867dca85dc5749508aa552a10b9993e"
+  },
+  {
+    "file": "02_stage2_results/PACKAGE_SHA256.json",
+    "source": "work/stage2_unified_review_20261026/results/PACKAGE_SHA256.json",
+    "sha256": "7b2534f4f624f5f394130dc0531f678ee5e7e65e1f6acbc0681083dd490c90bd"
+  },
+  {
+    "file": "02_stage2_results/paired_intervals.csv",
+    "source": "work/stage2_unified_review_20261026/results/paired_intervals.csv",
+    "sha256": "3c8bec18c76ad485f623bc9f7692af02fc4a9104d61a233f622e4a37565fe78b"
+  },
+  {
+    "file": "02_stage2_results/recomputed_per_seed.csv",
+    "source": "work/stage2_unified_review_20261026/results/recomputed_per_seed.csv",
+    "sha256": "d790914bdb992af275e62cd04d082cd1271c77f817197a582ac1eb3d28a11618"
+  },
+  {
+    "file": "02_stage2_results/recomputed_summary.csv",
+    "source": "work/stage2_unified_review_20261026/results/recomputed_summary.csv",
+    "sha256": "314ece74b8033107050519f45c6d1a7987951947bdffc45bd78e4f1f4d9bef0c"
+  },
+  {
+    "file": "02_stage2_results/review.py",
+    "source": "work/stage2_unified_review_20261026/results/review.py",
+    "sha256": "61778537765c50a05f3b2a1e7ef71281e94e14c36a5daa15c831079c835993ff"
+  },
+  {
+    "file": "02_stage2_results/summarize.py",
+    "source": "work/stage2_unified_review_20261026/results/summarize.py",
+    "sha256": "28d9f66c8f77fd4a35e70c4964fb4746bc74d109d0183d386a1b94eb9bd48de5"
+  },
+  {
+    "file": "02_stage2_results/统一评价结果解读.md",
+    "source": "work/stage2_unified_review_20261026/results/统一评价结果解读.md",
+    "sha256": "3b535653703fc631e858ebe1ae58635bd711eba6a5833eee196abd37b078fb8c"
+  },
+  {
+    "file": "03_student_postcalibration/COMPLETE.json",
+    "source": "work/stage2_postcal_20261026/delivery/COMPLETE.json",
+    "sha256": "dbef5f2d1e72c7834188db11452c67a84e2b4f28d51bf425e10aeed7abc45333"
+  },
+  {
+    "file": "03_student_postcalibration/environment.json",
+    "source": "work/stage2_postcal_20261026/delivery/environment.json",
+    "sha256": "a5d0d884cf6ff1b3bc89f837e13a12cca1adec90cad536bf55f99125e49ae69c"
+  },
+  {
+    "file": "03_student_postcalibration/FINAL_AUDIT.json",
+    "source": "work/stage2_postcal_20261026/delivery/FINAL_AUDIT.json",
+    "sha256": "ba9398b6bd41ad0dcba59b955ca30813bfa6efec3458d521595597c8461e6cd0"
+  },
+  {
+    "file": "03_student_postcalibration/inputs/CE_previous_calibration.json",
+    "source": "work/stage2_postcal_20261026/delivery/inputs/CE_previous_calibration.json",
+    "sha256": "24d30062e0147e585000fb499bb151118a0043599ce053ac594a1a0176659042"
+  },
+  {
+    "file": "03_student_postcalibration/inputs/Day2_reference_per_seed.csv",
+    "source": "work/stage2_postcal_20261026/delivery/inputs/Day2_reference_per_seed.csv",
+    "sha256": "519ffd27eccf27e19431d6813a8f3a1db976f27eaad6382e8af5f2dbd6dc7c08"
+  },
+  {
+    "file": "03_student_postcalibration/inputs/models/CE_20261010_done.json",
+    "source": "work/stage2_postcal_20261026/delivery/inputs/models/CE_20261010_done.json",
+    "sha256": "b46744b24259c15017e5d9ac89e6e3d554f5d376e0ba13f57914a7e3c9a157ea"
+  },
+  {
+    "file": "03_student_postcalibration/inputs/models/CE_20261011_done.json",
+    "source": "work/stage2_postcal_20261026/delivery/inputs/models/CE_20261011_done.json",
+    "sha256": "da70fb33489f1ff1a3fcf3b24cba92bfa62f67b9d203a1e62401d77fb8a84e94"
+  },
+  {
+    "file": "03_student_postcalibration/inputs/models/CE_20261012_done.json",
+    "source": "work/stage2_postcal_20261026/delivery/inputs/models/CE_20261012_done.json",
+    "sha256": "720da4a10f1cc7259508618b0115966fa97de044c0319b54bd9ff75c75bebd31"
+  },
+  {
+    "file": "03_student_postcalibration/inputs/models/KD_calibrated_20261010_done.json",
+    "source": "work/stage2_postcal_20261026/delivery/inputs/models/KD_calibrated_20261010_done.json",
+    "sha256": "a2488b5c43ed0e29eba6287a598753da6cf528bd56b6ee719a56118201929bc8"
+  },
+  {
+    "file": "03_student_postcalibration/inputs/models/KD_calibrated_20261011_done.json",
+    "source": "work/stage2_postcal_20261026/delivery/inputs/models/KD_calibrated_20261011_done.json",
+    "sha256": "251a8aa41d5c04dd3af3a7b505478394b1cdb8061b39d910a45566f8e2d558a4"
+  },
+  {
+    "file": "03_student_postcalibration/inputs/models/KD_calibrated_20261012_done.json",
+    "source": "work/stage2_postcal_20261026/delivery/inputs/models/KD_calibrated_20261012_done.json",
+    "sha256": "826436737a6682d937bb2e0e77e1bbcfd5c9d595f0c5bce531d2f0a81f504704"
+  },
+  {
+    "file": "03_student_postcalibration/inputs/models/KD_raw_20261010_done.json",
+    "source": "work/stage2_postcal_20261026/delivery/inputs/models/KD_raw_20261010_done.json",
+    "sha256": "588b5c0e08c9f72051fbbd2d04f5218e5c975bd9d92b61db59db504189645834"
+  },
+  {
+    "file": "03_student_postcalibration/inputs/models/KD_raw_20261011_done.json",
+    "source": "work/stage2_postcal_20261026/delivery/inputs/models/KD_raw_20261011_done.json",
+    "sha256": "a1b0417b90b1c6f9a3b94ff4db47b3777db4dbb4c4655e8a435135644243b347"
+  },
+  {
+    "file": "03_student_postcalibration/inputs/models/KD_raw_20261012_done.json",
+    "source": "work/stage2_postcal_20261026/delivery/inputs/models/KD_raw_20261012_done.json",
+    "sha256": "c1b1c466c187def9e10408ba88b42591b5623eb8b8631c61c056af8eca47ca6a"
+  },
+  {
+    "file": "03_student_postcalibration/inputs/reference/CE_20261010.csv",
+    "source": "work/stage2_postcal_20261026/delivery/inputs/reference/CE_20261010.csv",
+    "sha256": "add4722a3bb71b1f629c7b00b1fec1192bd8aff10713db8204aa694464632831"
+  },
+  {
+    "file": "03_student_postcalibration/inputs/reference/CE_20261011.csv",
+    "source": "work/stage2_postcal_20261026/delivery/inputs/reference/CE_20261011.csv",
+    "sha256": "c6f54ea531e390b29c96c3f7fa2ca20bc1598617e9a47c8e986a812a245dd652"
+  },
+  {
+    "file": "03_student_postcalibration/inputs/reference/CE_20261012.csv",
+    "source": "work/stage2_postcal_20261026/delivery/inputs/reference/CE_20261012.csv",
+    "sha256": "f8f8c342c46b283754868112f7c58a5adfa0e222da0531cca9a047916bf2802f"
+  },
+  {
+    "file": "03_student_postcalibration/inputs/reference/KD_calibrated_20261010.csv",
+    "source": "work/stage2_postcal_20261026/delivery/inputs/reference/KD_calibrated_20261010.csv",
+    "sha256": "01fa0f970700e36f7c2e4ed8a6ed6e9795b9d653a9b046cb7957f7af7e5da37f"
+  },
+  {
+    "file": "03_student_postcalibration/inputs/reference/KD_calibrated_20261011.csv",
+    "source": "work/stage2_postcal_20261026/delivery/inputs/reference/KD_calibrated_20261011.csv",
+    "sha256": "68fc38f23555c6bd86ec8a8ac3f5927f5861f1544634cd9cedc0a7678c30df21"
+  },
+  {
+    "file": "03_student_postcalibration/inputs/reference/KD_calibrated_20261012.csv",
+    "source": "work/stage2_postcal_20261026/delivery/inputs/reference/KD_calibrated_20261012.csv",
+    "sha256": "3aafaff6a8e15e7d527203aed19deeb6c56a603bb3aed1f842d09eab05b2b79a"
+  },
+  {
+    "file": "03_student_postcalibration/inputs/reference/KD_raw_20261010.csv",
+    "source": "work/stage2_postcal_20261026/delivery/inputs/reference/KD_raw_20261010.csv",
+    "sha256": "64e754b9935ac7d61696018585c27c82dd2ac504cc318f54d2a708e3cb8fc4c2"
+  },
+  {
+    "file": "03_student_postcalibration/inputs/reference/KD_raw_20261011.csv",
+    "source": "work/stage2_postcal_20261026/delivery/inputs/reference/KD_raw_20261011.csv",
+    "sha256": "fcef04ab8dbfd7cab802fefab493346894ac395e3566e58dc303d8272c3c280c"
+  },
+  {
+    "file": "03_student_postcalibration/inputs/reference/KD_raw_20261012.csv",
+    "source": "work/stage2_postcal_20261026/delivery/inputs/reference/KD_raw_20261012.csv",
+    "sha256": "dcf1c4b7be143ac7556ff969e2cce454fa1ebe9196461a9ffcca861c3bf645ee"
+  },
+  {
+    "file": "03_student_postcalibration/inputs/val_fit_meta.json",
+    "source": "work/stage2_postcal_20261026/delivery/inputs/val_fit_meta.json",
+    "sha256": "0173de239a63a2a686ead9efb1d0b91e8ae0d3f1a552ee80ada65d301f3b9cbe"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/CE_20261010/temperature_grid.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/CE_20261010/temperature_grid.csv",
+    "sha256": "c5c2dd5aaf96e7bc01e442f246b44045d61a8734e3691cacf6801ae7a79d2ce4"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/CE_20261010/val_fit_post_temperature.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/CE_20261010/val_fit_post_temperature.csv",
+    "sha256": "ef29501a401c10df8ded939b2f0d8c450297c1bff283dd7b358d21598a8d2d9f"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/CE_20261010/val_fit_raw.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/CE_20261010/val_fit_raw.csv",
+    "sha256": "3e54c831549627a5d2305e7fa9635d00f5deef59cdd58112cd87c14be16378dd"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/CE_20261010/val_select_post_temperature.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/CE_20261010/val_select_post_temperature.csv",
+    "sha256": "4961e1a27d489a2eb64a2b8dc214084391638ebdd4b684be0580179bda95499e"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/CE_20261010/val_select_raw.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/CE_20261010/val_select_raw.csv",
+    "sha256": "2720aa829b5718cb696f94696dcdb09165ef2d0926ed877fd74b7e2bff11678d"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/CE_20261011/temperature_grid.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/CE_20261011/temperature_grid.csv",
+    "sha256": "862fee5cb95c0c59b1ae56aa29b8b57ab440efddc5a209ea0adebe6043cf8b74"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/CE_20261011/val_fit_post_temperature.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/CE_20261011/val_fit_post_temperature.csv",
+    "sha256": "9b67e86e3f09724abb452cffd79e177f142853dd80672c96ee0da513755373a6"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/CE_20261011/val_fit_raw.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/CE_20261011/val_fit_raw.csv",
+    "sha256": "2b0500f56ba0729c56a698cf226eb4dcd6e39dad4010c4493d0ba50db374afc0"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/CE_20261011/val_select_post_temperature.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/CE_20261011/val_select_post_temperature.csv",
+    "sha256": "e12ff4c0af39a677e3e618727760fe9270ce1bffe1a9f44d9f711b971711598b"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/CE_20261011/val_select_raw.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/CE_20261011/val_select_raw.csv",
+    "sha256": "ff689d6c53fe3e8497e4631fb6db5833f17e853d1e6833208573e65e19022feb"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/CE_20261012/temperature_grid.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/CE_20261012/temperature_grid.csv",
+    "sha256": "a89c6d40f51ab73559ea92a9df9c96880ab61a5e9d2ce2e94f730e39fe7182bb"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/CE_20261012/val_fit_post_temperature.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/CE_20261012/val_fit_post_temperature.csv",
+    "sha256": "9876d9dff83afd8ce260610d0ed7f0ff50ce2f801ae9c91fd2ac5fc378890f6c"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/CE_20261012/val_fit_raw.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/CE_20261012/val_fit_raw.csv",
+    "sha256": "a983373b8404859a8bf45a14cdad50a00c9ba64ae773bcc40354606a32f3a4f1"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/CE_20261012/val_select_post_temperature.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/CE_20261012/val_select_post_temperature.csv",
+    "sha256": "6c31db828266c7692f9d58adf48d8b1af8c3d0912a40445516b7dc1d2458d6a7"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/CE_20261012/val_select_raw.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/CE_20261012/val_select_raw.csv",
+    "sha256": "18fa5cefd7d4ed8ba4d0af1d94d2003d7b0a135d176a4909f5fe9082b9669636"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_calibrated_20261010/temperature_grid.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_calibrated_20261010/temperature_grid.csv",
+    "sha256": "5283c5e6bab1b731f84f7b5c73a4637d4e607cfe7612e88f92df07d12707ac80"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_calibrated_20261010/val_fit_post_temperature.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_calibrated_20261010/val_fit_post_temperature.csv",
+    "sha256": "e1029b09d206553744135a7d5ebe3143148399f0cdc78f2b0ee23d0392569e59"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_calibrated_20261010/val_fit_raw.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_calibrated_20261010/val_fit_raw.csv",
+    "sha256": "b3f9e38028314b1d1c1072f2005775c67604e7b3f3f8123c5783cde0ca61aafe"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_calibrated_20261010/val_select_post_temperature.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_calibrated_20261010/val_select_post_temperature.csv",
+    "sha256": "9217c3c2a468a5603c09d2ddd46aa4eb466fcc697d4f5af3cb345f64b2488b05"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_calibrated_20261010/val_select_raw.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_calibrated_20261010/val_select_raw.csv",
+    "sha256": "d61f13434e0d7c8fa4aca859bdc1d6495e1c2f8e59eb87d6ab5d13027bd9d66c"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_calibrated_20261011/temperature_grid.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_calibrated_20261011/temperature_grid.csv",
+    "sha256": "1cfa47e5c97d79e322d36cc9b803eb33e642119f2c2ee80e4caab353d486c239"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_calibrated_20261011/val_fit_post_temperature.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_calibrated_20261011/val_fit_post_temperature.csv",
+    "sha256": "318b7a3ae6063018854419fe2eba60999c7d592d70c4c47dd2d34a4d1bff136b"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_calibrated_20261011/val_fit_raw.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_calibrated_20261011/val_fit_raw.csv",
+    "sha256": "01e087a7c90fab2cdb86f589df325e19bb1a2292474e0eb0562116079e95816f"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_calibrated_20261011/val_select_post_temperature.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_calibrated_20261011/val_select_post_temperature.csv",
+    "sha256": "43a8892a59397788a6922d64cdc0901f037288892a5b867ad23d37eefac62ce3"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_calibrated_20261011/val_select_raw.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_calibrated_20261011/val_select_raw.csv",
+    "sha256": "153603a496502b941309b1e56cd8b7ff42fc11efbc7ea1fe976a803e3e5ae343"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_calibrated_20261012/temperature_grid.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_calibrated_20261012/temperature_grid.csv",
+    "sha256": "09c440709c865356cd267468c428c276016ae579169f223f093f16e961eb46d1"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_calibrated_20261012/val_fit_post_temperature.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_calibrated_20261012/val_fit_post_temperature.csv",
+    "sha256": "df9bc5cb0461931620865305bbda6f7a61bd6ea28a4b46d24b1bd7fd3acdd8f4"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_calibrated_20261012/val_fit_raw.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_calibrated_20261012/val_fit_raw.csv",
+    "sha256": "9aec931672b203230d16c332fdc802794598f3103a755111c806433b0eb87b62"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_calibrated_20261012/val_select_post_temperature.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_calibrated_20261012/val_select_post_temperature.csv",
+    "sha256": "c840ca423e6643bd449958e7596fb62e58e08d0c4cea54bc5c85b5f772f9d510"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_calibrated_20261012/val_select_raw.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_calibrated_20261012/val_select_raw.csv",
+    "sha256": "7e14821899ba471b09d8562c8b076d82de61c0246eefa50b2b8255577e8dee4b"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_raw_20261010/temperature_grid.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_raw_20261010/temperature_grid.csv",
+    "sha256": "cca05b7972cc46d1f694ebda9621b72f0ea0bc2f35b85d0d74b72364e41d842b"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_raw_20261010/val_fit_post_temperature.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_raw_20261010/val_fit_post_temperature.csv",
+    "sha256": "6d5ed574e4a3a9fba7700435b10a7b07abcc62fabb1c96ea92c0e045ee536887"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_raw_20261010/val_fit_raw.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_raw_20261010/val_fit_raw.csv",
+    "sha256": "afc997b4c4a6244b2a5cd61106ad967907877c1d8cac5832ac40c8937f9c487b"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_raw_20261010/val_select_post_temperature.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_raw_20261010/val_select_post_temperature.csv",
+    "sha256": "d0f49a7aefaee05a5ccd28257ef252abb5b276b63f71ab1b176ba930060d69ce"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_raw_20261010/val_select_raw.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_raw_20261010/val_select_raw.csv",
+    "sha256": "0fd59e83ca335aff03a2ed242916634871caaca36a847e4e8f4bc4cbd49a8332"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_raw_20261011/temperature_grid.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_raw_20261011/temperature_grid.csv",
+    "sha256": "32cd18c3bb6b41b84e245ec9e33955ddc8f3c95de87feacd4ff30ec71146b40d"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_raw_20261011/val_fit_post_temperature.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_raw_20261011/val_fit_post_temperature.csv",
+    "sha256": "332c4e723005aaecaff36b1b5cb0d6d0ad3a590dd8cf669d62ffc46755111578"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_raw_20261011/val_fit_raw.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_raw_20261011/val_fit_raw.csv",
+    "sha256": "6f70f379311cbeb8b5f35098afb643a49475afe16ddb84e9a419af6967ce7b73"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_raw_20261011/val_select_post_temperature.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_raw_20261011/val_select_post_temperature.csv",
+    "sha256": "bf43fb67f1dad8bd62844a9e8ba9f1dc3c6c611ce5f58feae878253b3d341115"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_raw_20261011/val_select_raw.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_raw_20261011/val_select_raw.csv",
+    "sha256": "ae6f43bd422c6bf5ae646537f3d5e5107de940442b101afaa5c804ac1a183155"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_raw_20261012/temperature_grid.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_raw_20261012/temperature_grid.csv",
+    "sha256": "10d57c0a1543a022d20e4a5b64aa73cbbb28ffa8e0c17d71a569ca3cc9ee6746"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_raw_20261012/val_fit_post_temperature.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_raw_20261012/val_fit_post_temperature.csv",
+    "sha256": "761fee380e42657ad158ba83ea15cfe16d821ab8824f169319be3c8333d72455"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_raw_20261012/val_fit_raw.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_raw_20261012/val_fit_raw.csv",
+    "sha256": "8f8ac4c6f9adc659294c9fd3c9724fce5dc842598c57ff7e07e975eec39617e9"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_raw_20261012/val_select_post_temperature.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_raw_20261012/val_select_post_temperature.csv",
+    "sha256": "cb09eb1d19f33afad13d6c1be3b2a1f354665e20b68ad2b1fe08c5d7dc34383e"
+  },
+  {
+    "file": "03_student_postcalibration/outputs/KD_raw_20261012/val_select_raw.csv",
+    "source": "work/stage2_postcal_20261026/delivery/outputs/KD_raw_20261012/val_select_raw.csv",
+    "sha256": "b1dee5d7da6db183a6b540e96637071eb9178c741ee32cf60060b4e2819c3c91"
+  },
+  {
+    "file": "03_student_postcalibration/PACKAGE_SHA256.json",
+    "source": "work/stage2_postcal_20261026/delivery/PACKAGE_SHA256.json",
+    "sha256": "62b35cfb861faa22808f4ce94bb67a67279e71701f030a45afdaf24b8660cca1"
+  },
+  {
+    "file": "03_student_postcalibration/paired_deltas.csv",
+    "source": "work/stage2_postcal_20261026/delivery/paired_deltas.csv",
+    "sha256": "62effcb7102352e8debea60ec559fc640b8690059321b5594e2d9389a0223aca"
+  },
+  {
+    "file": "03_student_postcalibration/paired_summary.csv",
+    "source": "work/stage2_postcal_20261026/delivery/paired_summary.csv",
+    "sha256": "320d5fe85d5d28d92c0fd425cad39a6f02f9d7b9ce26a4ba89a6445b1434c97e"
+  },
+  {
+    "file": "03_student_postcalibration/per_seed.csv",
+    "source": "work/stage2_postcal_20261026/delivery/per_seed.csv",
+    "sha256": "627540a568089dd89821565caecc97208838ac24b4821ef2d7b1d78e2cc88229"
+  },
+  {
+    "file": "03_student_postcalibration/protocol_LOCKED.json",
+    "source": "work/stage2_postcal_20261026/delivery/protocol_LOCKED.json",
+    "sha256": "d16716e4ccb525bff863c51324aeca4f00700b8528564833a274a53b7442dde4"
+  },
+  {
+    "file": "03_student_postcalibration/replay_audit.json",
+    "source": "work/stage2_postcal_20261026/delivery/replay_audit.json",
+    "sha256": "da0195b6d13e1f3bb614c184fd40c740a79ce5811de6c0ddb1cb28a273a37660"
+  },
+  {
+    "file": "03_student_postcalibration/run_postcal.py",
+    "source": "work/stage2_postcal_20261026/delivery/run_postcal.py",
+    "sha256": "d2a364a3cd17c74fdfd9ec077a5afe8be687fe17322b3623613096c5c7f27c81"
+  },
+  {
+    "file": "03_student_postcalibration/student_temperature_LOCKED.json",
+    "source": "work/stage2_postcal_20261026/delivery/student_temperature_LOCKED.json",
+    "sha256": "2b7630edb1484a34f362bc8d39440527dbc8d8589f7462f21ce8dfb462dcdcc7"
+  },
+  {
+    "file": "03_student_postcalibration/summary.csv",
+    "source": "work/stage2_postcal_20261026/delivery/summary.csv",
+    "sha256": "2ee5908223ca3367f9aa2b88cfab0a0dc398b2c27990d7a3fecc1d12d0658d03"
+  },
+  {
+    "file": "03_student_postcalibration/verify_outputs.py",
+    "source": "work/stage2_postcal_20261026/delivery/verify_outputs.py",
+    "sha256": "acf31f88a0f8de37973fe7359e0862946e6f5d5e24303f50fffa3c676d247ef1"
+  },
+  {
+    "file": "03_student_postcalibration/结果说明与交接.md",
+    "source": "work/stage2_postcal_20261026/delivery/结果说明与交接.md",
+    "sha256": "b53193fc7ef3470c69bb0c935df66ce0118913c2fc6ee4ddc9f3cd88625f7d01"
+  },
+  {
+    "file": "04_protocol/evaluation_protocol_LOCKED.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/evaluation_protocol_LOCKED.json",
+    "sha256": "f4e5acb3ca81cf8a2c27bd347b337c29cfaec9e6717c0793574ccd0a659ffe4e"
+  },
+  {
+    "file": "04_protocol/models_LOCKED.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/models_LOCKED.json",
+    "sha256": "10f5a1badd7619dfaf7c347fd50a027a34e1812bceedc0712422f62f852af1b5"
+  },
+  {
+    "file": "04_protocol/models_LOCKED.csv",
+    "source": "work/stage2_eval_protocol_20261026/handoff/models_LOCKED.csv",
+    "sha256": "c0363958254edd1c4fc0ba78e0e07494cefc1d9af4db25672e363872f7f9bba4"
+  },
+  {
+    "file": "04_protocol/数据审计与评价协议说明.md",
+    "source": "work/stage2_eval_protocol_20261026/handoff/数据审计与评价协议说明.md",
+    "sha256": "a2435dfd80546d7f5f8336bbdb2694ef8d16e8ed809983188df3be4799d2f727"
+  },
+  {
+    "file": "04_protocol/verify_bundle.py",
+    "source": "work/stage2_eval_protocol_20261026/handoff/verify_bundle.py",
+    "sha256": "a40414480755899ccdf7a4a11622f2c2b531e46f25608a642fd3529f5c205962"
+  },
+  {
+    "file": "04_protocol/PACKAGE_SHA256.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/PACKAGE_SHA256.json",
+    "sha256": "ac6915947711ffce7d18938e219df2ef4bb6f08370adc10ca0e1abf9374ed8d5"
+  },
+  {
+    "file": "04_protocol/audit/archive_sources.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/audit/archive_sources.json",
+    "sha256": "7dce4f23936947c04ded03da5a2ac7a3717ce6d9318f2472a6696d0a5e506cd4"
+  },
+  {
+    "file": "04_protocol/audit/DATA_AUDIT.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/audit/DATA_AUDIT.json",
+    "sha256": "805d0942b9f4f37b22cbcb7621779129adc80bea98520b1ca78f51804dd90199"
+  },
+  {
+    "file": "04_protocol/audit/early_usage_overlap.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/audit/early_usage_overlap.json",
+    "sha256": "15b26bfa659bbd3282a8ec991e89b2b1f28ee234f31ac87c0da627092451365e"
+  },
+  {
+    "file": "04_protocol/audit/official_annotation_alignment.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/audit/official_annotation_alignment.json",
+    "sha256": "a799014b88d8353b9a0d9f1cede8434ef0c844ba4d1d8c1ae3472bae9193a460"
+  },
+  {
+    "file": "04_protocol/audit/overlap.csv",
+    "source": "work/stage2_eval_protocol_20261026/handoff/audit/overlap.csv",
+    "sha256": "b2b73fb60ca04dd499a352c3d292b2b4d7f927f73bb85dba3c8987e7ea32204b"
+  },
+  {
+    "file": "04_protocol/history/current_image_audit.jsonl",
+    "source": "work/stage2_eval_protocol_20261026/handoff/history/current_image_audit.jsonl",
+    "sha256": "46dbe444ca7b9a02f0765be0b25e8700a969c3f2f1686e256bf8830febba6a87"
+  },
+  {
+    "file": "04_protocol/history/early_sources_projection.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/history/early_sources_projection.json",
+    "sha256": "bbe6814a89dd0ba455b8512a871b599e9d5e312ac45c01b926c48cd01809dd75"
+  },
+  {
+    "file": "04_protocol/history/evaluation_image_audit.jsonl",
+    "source": "work/stage2_eval_protocol_20261026/handoff/history/evaluation_image_audit.jsonl",
+    "sha256": "283b6471ce77372dfe7c79bec5cfe5d8339ec355399d2e6ab82eb019856ca8c8"
+  },
+  {
+    "file": "04_protocol/history/known_use_history.md",
+    "source": "work/stage2_eval_protocol_20261026/handoff/history/known_use_history.md",
+    "sha256": "ed179093c54fc36d66f38c9c6068dd5a279fe22ef5ac64c85bc09a08e4b3fcea"
+  },
+  {
+    "file": "04_protocol/history/P0_data_usage.txt",
+    "source": "work/stage2_eval_protocol_20261026/handoff/history/P0_data_usage.txt",
+    "sha256": "8cf04ec04f8e65b21a0e33e0336275d4cbec5b39fa24da6673abd35ff77f840b"
+  },
+  {
+    "file": "04_protocol/model_receipts/CE_20261010.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/model_receipts/CE_20261010.json",
+    "sha256": "b46744b24259c15017e5d9ac89e6e3d554f5d376e0ba13f57914a7e3c9a157ea"
+  },
+  {
+    "file": "04_protocol/model_receipts/CE_20261011.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/model_receipts/CE_20261011.json",
+    "sha256": "da70fb33489f1ff1a3fcf3b24cba92bfa62f67b9d203a1e62401d77fb8a84e94"
+  },
+  {
+    "file": "04_protocol/model_receipts/CE_20261012.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/model_receipts/CE_20261012.json",
+    "sha256": "720da4a10f1cc7259508618b0115966fa97de044c0319b54bd9ff75c75bebd31"
+  },
+  {
+    "file": "04_protocol/model_receipts/KD_calibrated_20261010.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/model_receipts/KD_calibrated_20261010.json",
+    "sha256": "a2488b5c43ed0e29eba6287a598753da6cf528bd56b6ee719a56118201929bc8"
+  },
+  {
+    "file": "04_protocol/model_receipts/KD_calibrated_20261011.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/model_receipts/KD_calibrated_20261011.json",
+    "sha256": "251a8aa41d5c04dd3af3a7b505478394b1cdb8061b39d910a45566f8e2d558a4"
+  },
+  {
+    "file": "04_protocol/model_receipts/KD_calibrated_20261012.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/model_receipts/KD_calibrated_20261012.json",
+    "sha256": "826436737a6682d937bb2e0e77e1bbcfd5c9d595f0c5bce531d2f0a81f504704"
+  },
+  {
+    "file": "04_protocol/model_receipts/KD_raw_20261010.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/model_receipts/KD_raw_20261010.json",
+    "sha256": "588b5c0e08c9f72051fbbd2d04f5218e5c975bd9d92b61db59db504189645834"
+  },
+  {
+    "file": "04_protocol/model_receipts/KD_raw_20261011.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/model_receipts/KD_raw_20261011.json",
+    "sha256": "a1b0417b90b1c6f9a3b94ff4db47b3777db4dbb4c4655e8a435135644243b347"
+  },
+  {
+    "file": "04_protocol/model_receipts/KD_raw_20261012.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/model_receipts/KD_raw_20261012.json",
+    "sha256": "c1b1c466c187def9e10408ba88b42591b5623eb8b8631c61c056af8eca47ca6a"
+  },
+  {
+    "file": "04_protocol/model_receipts/LS005_20261010.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/model_receipts/LS005_20261010.json",
+    "sha256": "5b8b9a766072d28d3a6201251e94117c02ff9151cb44cee0cc690fbae103d1ce"
+  },
+  {
+    "file": "04_protocol/model_receipts/LS005_20261011.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/model_receipts/LS005_20261011.json",
+    "sha256": "2b98a50c4f9e64d74eb0f074d7e251af4dc29f755d4f1a51cd6554949f3a46c5"
+  },
+  {
+    "file": "04_protocol/model_receipts/LS005_20261012.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/model_receipts/LS005_20261012.json",
+    "sha256": "79b20679ac3a4a71ad16bb1a42a58fb35f108e9d84a99534690d4f57e3f94832"
+  },
+  {
+    "file": "04_protocol/model_receipts/LS010_20261010.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/model_receipts/LS010_20261010.json",
+    "sha256": "b52f2cfcbf088458051bf954c60c36efb78adb607c43ff8cc523fb5c4dfb3f4c"
+  },
+  {
+    "file": "04_protocol/model_receipts/LS010_20261011.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/model_receipts/LS010_20261011.json",
+    "sha256": "ad7fc7bc38177016b73d91016c9dd35f6f56d900326b62669f9100f54836dd65"
+  },
+  {
+    "file": "04_protocol/model_receipts/LS010_20261012.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/model_receipts/LS010_20261012.json",
+    "sha256": "d02c41e2b2458c1ac58a9cc128626da3359f0e5d1f33be0f07c0552ca9694087"
+  },
+  {
+    "file": "04_protocol/model_receipts/Text_CE_20261010.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/model_receipts/Text_CE_20261010.json",
+    "sha256": "d3bc2b30bc377a8e1fb8fbcb03675f0b4d3eff27724a510cf8e2c05872d0e736"
+  },
+  {
+    "file": "04_protocol/model_receipts/Text_CE_20261011.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/model_receipts/Text_CE_20261011.json",
+    "sha256": "ee7054caafbd474e858e318a409ae0f3e17550ef0c60e2db041e102d5d88e181"
+  },
+  {
+    "file": "04_protocol/model_receipts/Text_CE_20261012.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/model_receipts/Text_CE_20261012.json",
+    "sha256": "7764f2ea9805d8a94aa951b131e0ee1485af803115e343a56bd45744a711984a"
+  },
+  {
+    "file": "04_protocol/model_receipts/Text_KD_raw_20261010.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/model_receipts/Text_KD_raw_20261010.json",
+    "sha256": "8613b0651257d3ba0724fa6b524e1be0a1738282e340dbf140459d6d51f3b7c6"
+  },
+  {
+    "file": "04_protocol/model_receipts/Text_KD_raw_20261011.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/model_receipts/Text_KD_raw_20261011.json",
+    "sha256": "63649665abb3610c75d1eb1727b2969f0dd16547bf8c9ecf3469f07503856e64"
+  },
+  {
+    "file": "04_protocol/model_receipts/Text_KD_raw_20261012.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/model_receipts/Text_KD_raw_20261012.json",
+    "sha256": "188333a94173ffade5188e90ea60602b63cb52e2dc20ce84e1a371e9b7c4a445"
+  },
+  {
+    "file": "04_protocol/temperatures/Day2_student_calibration.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/temperatures/Day2_student_calibration.json",
+    "sha256": "2e612114c2417dd2b250f780c9f84f6df61c62345ef55fcbf213590f633f3917"
+  },
+  {
+    "file": "04_protocol/temperatures/Fufu_protocol_LOCKED.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/temperatures/Fufu_protocol_LOCKED.json",
+    "sha256": "d16716e4ccb525bff863c51324aeca4f00700b8528564833a274a53b7442dde4"
+  },
+  {
+    "file": "04_protocol/temperatures/Fufu_student_temperature_LOCKED.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/temperatures/Fufu_student_temperature_LOCKED.json",
+    "sha256": "2b7630edb1484a34f362bc8d39440527dbc8d8589f7462f21ce8dfb462dcdcc7"
+  },
+  {
+    "file": "04_protocol/bootstrap/draws_LOCKED.json",
+    "source": "work/stage2_eval_protocol_20261026/handoff/bootstrap/draws_LOCKED.json",
+    "sha256": "f1a34be1ec9fe21747a700bd974373a6a891e3392d80f2a9fb8b411c8b43fce3"
+  },
+  {
+    "file": "04_protocol/bootstrap/historical_test_draws.npz",
+    "source": "work/stage2_eval_protocol_20261026/handoff/bootstrap/historical_test_draws.npz",
+    "sha256": "7493ddb3775f3f26226550b5d6aa2123fbccb37916dfb13bc244951b666187e4"
+  },
+  {
+    "file": "04_protocol/bootstrap/new_dev_holdout_draws.npz",
+    "source": "work/stage2_eval_protocol_20261026/handoff/bootstrap/new_dev_holdout_draws.npz",
+    "sha256": "ba7d7b49a74393e3cac68ad55e60bc9967ca305b373e396bd3edd21e0ca156da"
+  },
+  {
+    "file": "04_protocol/manifests/historical_test.jsonl",
+    "source": "work/stage2_eval_protocol_20261026/handoff/manifests/historical_test.jsonl",
+    "sha256": "a5dbd16bad3e17bc35dcef326dd0f70ee82ffc1a6b9298c4a60e8d820e4ac257"
+  },
+  {
+    "file": "04_protocol/manifests/new_dev_holdout.jsonl",
+    "source": "work/stage2_eval_protocol_20261026/handoff/manifests/new_dev_holdout.jsonl",
+    "sha256": "9cd07c0d383d9e10bd8c9092a2067f0021894b195180bc82ca623f2fef71b3e5"
+  },
+  {
+    "file": "04_protocol/manifests/train.jsonl",
+    "source": "work/stage2_eval_protocol_20261026/handoff/manifests/train.jsonl",
+    "sha256": "9dc440880cda17e1332630b703263068b468912034e164a07e41c074d1d56f85"
+  },
+  {
+    "file": "04_protocol/manifests/val_fit.jsonl",
+    "source": "work/stage2_eval_protocol_20261026/handoff/manifests/val_fit.jsonl",
+    "sha256": "a58e2f00047f159ca7b6415564ff03b699c68897fea805fbfb9088729fdbbaf4"
+  },
+  {
+    "file": "04_protocol/manifests/val_select.jsonl",
+    "source": "work/stage2_eval_protocol_20261026/handoff/manifests/val_select.jsonl",
+    "sha256": "da47eb2435d159d7e9343314c593ec4e0775b34d7a337c472b2d35b240b251d2"
+  },
+  {
+    "file": "04_protocol/replay_reference/CE_20261010.csv",
+    "source": "work/stage2_eval_protocol_20261026/handoff/replay_reference/CE_20261010.csv",
+    "sha256": "fd2c4572f16aac83ca8e01ee32e336d189bd91139de8c511a877177e2520b1dc"
+  },
+  {
+    "file": "04_protocol/replay_reference/CE_20261011.csv",
+    "source": "work/stage2_eval_protocol_20261026/handoff/replay_reference/CE_20261011.csv",
+    "sha256": "911fa936573a49a17cd6893809524506bdd366112687ce173eda673936941be7"
+  },
+  {
+    "file": "04_protocol/replay_reference/CE_20261012.csv",
+    "source": "work/stage2_eval_protocol_20261026/handoff/replay_reference/CE_20261012.csv",
+    "sha256": "2f7e486fc1aa6629817747519f917d154b1c7c367f101f11f302971c60691750"
+  },
+  {
+    "file": "04_protocol/replay_reference/KD_calibrated_20261010.csv",
+    "source": "work/stage2_eval_protocol_20261026/handoff/replay_reference/KD_calibrated_20261010.csv",
+    "sha256": "210a0b9701613d896a0b40c009ecae397df48a68ec295a5caacc3afcd78d6808"
+  },
+  {
+    "file": "04_protocol/replay_reference/KD_calibrated_20261011.csv",
+    "source": "work/stage2_eval_protocol_20261026/handoff/replay_reference/KD_calibrated_20261011.csv",
+    "sha256": "d1d98b240277945b6aaacc3a1062809edeed6d2f573e98eb556f9859b2233cef"
+  },
+  {
+    "file": "04_protocol/replay_reference/KD_calibrated_20261012.csv",
+    "source": "work/stage2_eval_protocol_20261026/handoff/replay_reference/KD_calibrated_20261012.csv",
+    "sha256": "6645bb9ab0d46306412443bcc2c8cab5e9f535a650b91c1e05f4964087857568"
+  },
+  {
+    "file": "04_protocol/replay_reference/KD_raw_20261010.csv",
+    "source": "work/stage2_eval_protocol_20261026/handoff/replay_reference/KD_raw_20261010.csv",
+    "sha256": "2b75bd11f5abc97e293cacbbe9677e4be4ccf8bd9e114e1e4b98a9a1637e0335"
+  },
+  {
+    "file": "04_protocol/replay_reference/KD_raw_20261011.csv",
+    "source": "work/stage2_eval_protocol_20261026/handoff/replay_reference/KD_raw_20261011.csv",
+    "sha256": "5ff18cb5c8450e1f21ca9deaddd0f98bbe322b8e2ea32f7714516293a3dc9b43"
+  },
+  {
+    "file": "04_protocol/replay_reference/KD_raw_20261012.csv",
+    "source": "work/stage2_eval_protocol_20261026/handoff/replay_reference/KD_raw_20261012.csv",
+    "sha256": "bc4d65b695b0bd07d0cc2486c2ec331e66af2621413443407b85fa512435d1ea"
+  },
+  {
+    "file": "04_protocol/replay_reference/LS005_20261010.csv",
+    "source": "work/stage2_eval_protocol_20261026/handoff/replay_reference/LS005_20261010.csv",
+    "sha256": "76894fb230f1a336dae840b076dc6054835e6c690ba1895d900a825cd4453fc2"
+  },
+  {
+    "file": "04_protocol/replay_reference/LS005_20261011.csv",
+    "source": "work/stage2_eval_protocol_20261026/handoff/replay_reference/LS005_20261011.csv",
+    "sha256": "134a33243629e72a1ef800044e38a329386058e332f8663a3264c1aed21832f4"
+  },
+  {
+    "file": "04_protocol/replay_reference/LS005_20261012.csv",
+    "source": "work/stage2_eval_protocol_20261026/handoff/replay_reference/LS005_20261012.csv",
+    "sha256": "9926f90c5d35484a53289b905d0e15597436dd8e42fd2f701389cf8719850d4e"
+  },
+  {
+    "file": "04_protocol/replay_reference/LS010_20261010.csv",
+    "source": "work/stage2_eval_protocol_20261026/handoff/replay_reference/LS010_20261010.csv",
+    "sha256": "cf2530d1f3bbdbb2d9e00db9e9c0be3f9e54919a8f80dc82bdfa98be87f4ee40"
+  },
+  {
+    "file": "04_protocol/replay_reference/LS010_20261011.csv",
+    "source": "work/stage2_eval_protocol_20261026/handoff/replay_reference/LS010_20261011.csv",
+    "sha256": "ee27700d8569fa4633cb21a28265fc4c8d5d75202f63dd7443b69e5c7c451e0b"
+  },
+  {
+    "file": "04_protocol/replay_reference/LS010_20261012.csv",
+    "source": "work/stage2_eval_protocol_20261026/handoff/replay_reference/LS010_20261012.csv",
+    "sha256": "26e686ff3c7f22b7d967ce23842b09bcf1e829ee60af9102f05c656373ce63f6"
+  },
+  {
+    "file": "04_protocol/replay_reference/Text_CE_20261010.csv",
+    "source": "work/stage2_eval_protocol_20261026/handoff/replay_reference/Text_CE_20261010.csv",
+    "sha256": "61c3f890a726efe3e06c226c277ffa2819259ca09165c4c73bd24e63c626c81c"
+  },
+  {
+    "file": "04_protocol/replay_reference/Text_CE_20261011.csv",
+    "source": "work/stage2_eval_protocol_20261026/handoff/replay_reference/Text_CE_20261011.csv",
+    "sha256": "6dc3144db1c85edf94b6d92a75a01b59f2986d05c7f83da41263df2bb8bb148a"
+  },
+  {
+    "file": "04_protocol/replay_reference/Text_CE_20261012.csv",
+    "source": "work/stage2_eval_protocol_20261026/handoff/replay_reference/Text_CE_20261012.csv",
+    "sha256": "9e0d14b7a06e113e1198b4e34f9c306c9dbf5d44e9c5705f54fdd21808a2fd5c"
+  },
+  {
+    "file": "04_protocol/replay_reference/Text_KD_raw_20261010.csv",
+    "source": "work/stage2_eval_protocol_20261026/handoff/replay_reference/Text_KD_raw_20261010.csv",
+    "sha256": "51b50c8197585c316ea82c6493094cc09fc19154e01cbe47ee38549d6edda58c"
+  },
+  {
+    "file": "04_protocol/replay_reference/Text_KD_raw_20261011.csv",
+    "source": "work/stage2_eval_protocol_20261026/handoff/replay_reference/Text_KD_raw_20261011.csv",
+    "sha256": "d234bc9c40a0e8314b1d8a27a9f6a0a5e7e6938f8936622c92a059720cdbb020"
+  },
+  {
+    "file": "04_protocol/replay_reference/Text_KD_raw_20261012.csv",
+    "source": "work/stage2_eval_protocol_20261026/handoff/replay_reference/Text_KD_raw_20261012.csv",
+    "sha256": "e15f60cfc7486cf856d4a165dffa7e50f20a08bf1e28bdfee19ba2271e061ba5"
+  },
+  {
+    "file": "05_stage1_P0P1/P0/00_先看这里.md",
+    "source": "work/paper_handoff_20261014/交付文件/P0_论文主结果与复现归档/00_先看这里.md",
+    "sha256": "eb157e2b432841b030a0675f5a35dcf1a4c67ac0dc80cf5b03847b228a5fe824"
+  },
+  {
+    "file": "05_stage1_P0P1/P0/01_论文主结果与结论边界.md",
+    "source": "work/paper_handoff_20261014/交付文件/P0_论文主结果与复现归档/01_论文主结果与结论边界.md",
+    "sha256": "cf0352b6ce3a2d569e29a5c3f3c2da1bd959e52a42e79757b28b700906552283"
+  },
+  {
+    "file": "05_stage1_P0P1/P0/02_方法与实验设置_当前版本.md",
+    "source": "work/paper_handoff_20261014/交付文件/P0_论文主结果与复现归档/02_方法与实验设置_当前版本.md",
+    "sha256": "2db12a115abafe033491730693facf4fa0ef290c291100ff7eadac7849cfcb1f"
+  },
+  {
+    "file": "05_stage1_P0P1/P0/03_数据使用与统计口径.md",
+    "source": "work/paper_handoff_20261014/交付文件/P0_论文主结果与复现归档/03_数据使用与统计口径.md",
+    "sha256": "83c4227eddc32d88f562f24e9c57e979604be9b939e53a242a4c1e160667a6cb"
+  },
+  {
+    "file": "05_stage1_P0P1/P0/结果数据/paired_intervals.json",
+    "source": "work/paper_handoff_20261014/交付文件/P0_论文主结果与复现归档/结果数据/paired_intervals.json",
+    "sha256": "e7dd1baef898612b05e4539ed7f8381d1403c8ef7e96820662b0aef93ae609f9"
+  },
+  {
+    "file": "05_stage1_P0P1/P0/结果数据/per_seed.json",
+    "source": "work/paper_handoff_20261014/交付文件/P0_论文主结果与复现归档/结果数据/per_seed.json",
+    "sha256": "888bb6d0b58955f174364649315a2b5b5137b4e8e79f957be6fbe5ad04896647"
+  },
+  {
+    "file": "05_stage1_P0P1/P0/结果数据/replay_audit.json",
+    "source": "work/paper_handoff_20261014/交付文件/P0_论文主结果与复现归档/结果数据/replay_audit.json",
+    "sha256": "5f2c754944b92f542b4e65ebae6e9977405acfb9d3ae56ae24d946ac187fc932"
+  },
+  {
+    "file": "05_stage1_P0P1/P0/结果数据/summary.json",
+    "source": "work/paper_handoff_20261014/交付文件/P0_论文主结果与复现归档/结果数据/summary.json",
+    "sha256": "8f09bdfede2d0780f1f44a639e191300f07d051335e1884eda4a9ea1b00fda73"
+  },
+  {
+    "file": "05_stage1_P0P1/P0/核验与依赖/200张图片使用史核查.json",
+    "source": "work/paper_handoff_20261014/交付文件/P0_论文主结果与复现归档/核验与依赖/200张图片使用史核查.json",
+    "sha256": "8e55bf1f46e98e7c6317de46c5bf034c6c2f2ebc2e5d7e4d5835b06b63fd32ce"
+  },
+  {
+    "file": "05_stage1_P0P1/P0/核验与依赖/21个锁定模型路径与依赖.json",
+    "source": "work/paper_handoff_20261014/交付文件/P0_论文主结果与复现归档/核验与依赖/21个锁定模型路径与依赖.json",
+    "sha256": "3ddd6dc832cfbe7208fb4dbd61cdbcb5d506fad08b89690473c0790129a92254"
+  },
+  {
+    "file": "05_stage1_P0P1/P0/核验与依赖/P0归档复核与P1完成状态.json",
+    "source": "work/paper_handoff_20261014/交付文件/P0_论文主结果与复现归档/核验与依赖/P0归档复核与P1完成状态.json",
+    "sha256": "6dfaf65b2cc1f411171f25560bd87fea82fad136784acf526df7c37b8eaed928"
+  },
+  {
+    "file": "05_stage1_P0P1/P1/00_先看这里.md",
+    "source": "work/paper_handoff_20261014/交付文件/P1_Teacher能力与推理成本/00_先看这里.md",
+    "sha256": "9efeb57a50dd81979568b9da43ebd6715b5472a49856fbc268bf9ad9f3196251"
+  },
+  {
+    "file": "05_stage1_P0P1/P1/01_论文结果表与可用表述.md",
+    "source": "work/paper_handoff_20261014/交付文件/P1_Teacher能力与推理成本/01_论文结果表与可用表述.md",
+    "sha256": "9a426c2941909c9637ab4d1f3958cb9578d76ef1fc1875e6446d31c174c02977"
+  },
+  {
+    "file": "05_stage1_P0P1/P1/02_方法与计时口径.md",
+    "source": "work/paper_handoff_20261014/交付文件/P1_Teacher能力与推理成本/02_方法与计时口径.md",
+    "sha256": "22bfefe28067ab7e6ebebf181d8ba7f836f7ce02b6ea98b2ab709d9ce2c68d5d"
+  },
+  {
+    "file": "05_stage1_P0P1/P1/结果表/cost_comparison.csv",
+    "source": "work/paper_handoff_20261014/交付文件/P1_Teacher能力与推理成本/结果表/cost_comparison.csv",
+    "sha256": "4a8ab948645e29f498071c2f8c39ad3d89c82b7acd5799291256e417d0dc4438"
+  },
+  {
+    "file": "05_stage1_P0P1/P1/结果表/student_200_per_seed.json",
+    "source": "work/paper_handoff_20261014/交付文件/P1_Teacher能力与推理成本/结果表/student_200_per_seed.json",
+    "sha256": "a8d63c4de470adf26d497cd977b64d8927ec6a2ab934844182df6a883a299b24"
+  },
+  {
+    "file": "05_stage1_P0P1/P1/结果表/teacher_200_per_item.csv",
+    "source": "work/paper_handoff_20261014/交付文件/P1_Teacher能力与推理成本/结果表/teacher_200_per_item.csv",
+    "sha256": "5f3389810f231715f315c5a459dbdc7554fb5a213852faa4577cc173f1c894fc"
+  },
+  {
+    "file": "05_stage1_P0P1/P1/结果表/teacher_student_200.csv",
+    "source": "work/paper_handoff_20261014/交付文件/P1_Teacher能力与推理成本/结果表/teacher_student_200.csv",
+    "sha256": "ea1c67683de9649e8309bb92c8db2d7bd7999301473bf8822778f75ebb996fff"
+  },
+  {
+    "file": "05_stage1_P0P1/P1/核验/audit_p1.py",
+    "source": "work/paper_handoff_20261014/交付文件/P1_Teacher能力与推理成本/核验/audit_p1.py",
+    "sha256": "ae1c10887eae46507f1120bc064a250ad24d725a1a3fc1ffa3e47a8fab4e9583"
+  },
+  {
+    "file": "05_stage1_P0P1/P1/核验/P1核验记录.json",
+    "source": "work/paper_handoff_20261014/交付文件/P1_Teacher能力与推理成本/核验/P1核验记录.json",
+    "sha256": "6dfaf65b2cc1f411171f25560bd87fea82fad136784acf526df7c37b8eaed928"
+  },
+  {
+    "file": "05_stage1_P0P1/P1/核验/复算Teacher成绩.json",
+    "source": "work/paper_handoff_20261014/交付文件/P1_Teacher能力与推理成本/核验/复算Teacher成绩.json",
+    "sha256": "240c24b7c29ff5d93b63f456ea6f73b95de1b06f9fba0601edb51a3225cfa990"
+  },
+  {
+    "file": "05_stage1_P0P1/P1/核验/核验脚本说明.txt",
+    "source": "work/paper_handoff_20261014/交付文件/P1_Teacher能力与推理成本/核验/核验脚本说明.txt",
+    "sha256": "80261b006d9713e3e2d56402951feb0c347a19c8b233acd8af78acb8bf62c99f"
+  },
+  {
+    "file": "02_stage2_results/hazel_original/code/unified_eval.py",
+    "source": "Stage2_Hazel_UnifiedEvaluation_20261026-20261026T090809Z-1-001.zip!/Stage2_Hazel_UnifiedEvaluation_20261026/code/unified_eval.py",
+    "sha256": "5e9efda1db372b6dc42096d660d6ba67c6a256aed3453858712605d3aabe54c5"
+  },
+  {
+    "file": "02_stage2_results/hazel_original/replay_audit.csv",
+    "source": "Stage2_Hazel_UnifiedEvaluation_20261026-20261026T090809Z-1-001.zip!/Stage2_Hazel_UnifiedEvaluation_20261026/replay_audit.csv",
+    "sha256": "498e4d0cec0ac818b7eac6ca62a0acfef844fc7d5eed8de2017277f464f84aa9"
+  },
+  {
+    "file": "02_stage2_results/hazel_original/PACKAGE_SHA256.json",
+    "source": "Stage2_Hazel_UnifiedEvaluation_20261026-20261026T090809Z-1-001.zip!/Stage2_Hazel_UnifiedEvaluation_20261026/PACKAGE_SHA256.json",
+    "sha256": "466273f4c9610710ad668f7755acd5352b79fef9753aeb4543cd68e0cd43e441"
+  },
+  {
+    "file": "02_stage2_results/hazel_original/input_audit.json",
+    "source": "Stage2_Hazel_UnifiedEvaluation_20261026-20261026T090809Z-1-001.zip!/Stage2_Hazel_UnifiedEvaluation_20261026/input_audit.json",
+    "sha256": "efb7f0218c4ec9edbd5caf126ee6905ec65bb91dcf79c30b26362c0c40de3e13"
+  },
+  {
+    "file": "02_stage2_results/hazel_original/checkpoint_audit.json",
+    "source": "Stage2_Hazel_UnifiedEvaluation_20261026-20261026T090809Z-1-001.zip!/Stage2_Hazel_UnifiedEvaluation_20261026/checkpoint_audit.json",
+    "sha256": "29ab146f63a485f5cec837f26cd5ade5626fbc151585150f917c6fd9ccfc6136"
+  },
+  {
+    "file": "02_stage2_results/hazel_original/replay_PASS.json",
+    "source": "Stage2_Hazel_UnifiedEvaluation_20261026-20261026T090809Z-1-001.zip!/Stage2_Hazel_UnifiedEvaluation_20261026/replay_PASS.json",
+    "sha256": "740dda5fd4abf508d2a777fd55bb7cda048410c30e03261477d831f9d2b86c86"
+  },
+  {
+    "file": "02_stage2_results/hazel_original/completion.json",
+    "source": "Stage2_Hazel_UnifiedEvaluation_20261026-20261026T090809Z-1-001.zip!/Stage2_Hazel_UnifiedEvaluation_20261026/completion.json",
+    "sha256": "46eff23c88c0e9b57737aca0f7d094427b39960222ec8997a57364ac49f02a25"
+  },
+  {
+    "file": "02_stage2_results/hazel_original/report/historical_test/metrics_mean_sampleSD.csv",
+    "source": "Stage2_Hazel_UnifiedEvaluation_20261026-20261026T090809Z-1-001.zip!/Stage2_Hazel_UnifiedEvaluation_20261026/report/historical_test/metrics_mean_sampleSD.csv",
+    "sha256": "5bfc175c95505e97cff2a5ad072c8f125326aab187491854ef30e7e5ca2ef2be"
+  },
+  {
+    "file": "02_stage2_results/hazel_original/report/historical_test/metrics_per_seed.csv",
+    "source": "Stage2_Hazel_UnifiedEvaluation_20261026-20261026T090809Z-1-001.zip!/Stage2_Hazel_UnifiedEvaluation_20261026/report/historical_test/metrics_per_seed.csv",
+    "sha256": "ec506af430ded546713df37980d456cdd104b90be382e41267f45186f9440d1d"
+  },
+  {
+    "file": "02_stage2_results/hazel_original/report/new_dev_holdout/metrics_per_seed.csv",
+    "source": "Stage2_Hazel_UnifiedEvaluation_20261026-20261026T090809Z-1-001.zip!/Stage2_Hazel_UnifiedEvaluation_20261026/report/new_dev_holdout/metrics_per_seed.csv",
+    "sha256": "c18d4f85f9a0ab624d2b706da07fd0f9a545efad69706494aaf20ad67a93d085"
+  },
+  {
+    "file": "02_stage2_results/hazel_original/run_config.json",
+    "source": "Stage2_Hazel_UnifiedEvaluation_20261026-20261026T090809Z-1-001.zip!/Stage2_Hazel_UnifiedEvaluation_20261026/run_config.json",
+    "sha256": "64d3220f0a6917616da62eb6274380aea908b13d4ed2690f0b3c9c7f8e04ee4a"
+  },
+  {
+    "file": "02_stage2_results/hazel_original/report/new_dev_holdout/metrics_mean_sampleSD.csv",
+    "source": "Stage2_Hazel_UnifiedEvaluation_20261026-20261026T090809Z-1-001.zip!/Stage2_Hazel_UnifiedEvaluation_20261026/report/new_dev_holdout/metrics_mean_sampleSD.csv",
+    "sha256": "d58babd9a1704b106600570c4a8bd7d346c1e4b161c0009406a0f7ca6eb7188a"
+  },
+  {
+    "file": "02_stage2_results/hazel_original/report/historical_test/raw_predictions.csv",
+    "source": "Stage2_Hazel_UnifiedEvaluation_20261026-20261026T090809Z-1-001.zip!/Stage2_Hazel_UnifiedEvaluation_20261026/report/historical_test/raw_predictions.csv",
+    "sha256": "daf1db6c9ac8d4cb5b69a024bc373f8596b4c7a078525e8212849687c33f8577"
+  },
+  {
+    "file": "02_stage2_results/hazel_original/report/new_dev_holdout/raw_predictions.csv",
+    "source": "Stage2_Hazel_UnifiedEvaluation_20261026-20261026T090809Z-1-001.zip!/Stage2_Hazel_UnifiedEvaluation_20261026/report/new_dev_holdout/raw_predictions.csv",
+    "sha256": "26068716740f211a9737f9c5efcf4ae45de01f6cc2940e6db8cd87f4ec46b53f"
+  },
+  {
+    "file": "02_stage2_results/hazel_original/report/new_dev_holdout/all_probabilities.csv",
+    "source": "Stage2_Hazel_UnifiedEvaluation_20261026-20261026T090809Z-1-001.zip!/Stage2_Hazel_UnifiedEvaluation_20261026/report/new_dev_holdout/all_probabilities.csv",
+    "sha256": "19fd656f0726748ebbd8f13b578f23e9dada7f95760e1589ee4f6fdd00b54751"
+  },
+  {
+    "file": "02_stage2_results/hazel_original/report/historical_test/all_probabilities.csv",
+    "source": "Stage2_Hazel_UnifiedEvaluation_20261026-20261026T090809Z-1-001.zip!/Stage2_Hazel_UnifiedEvaluation_20261026/report/historical_test/all_probabilities.csv",
+    "sha256": "6413c2945fbc63b3b7fa7a3b7024b639ed091a84e86547c9d68cbf4ddd9ca3c8"
+  }
+]

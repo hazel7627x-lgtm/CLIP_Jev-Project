@@ -1,0 +1,184 @@
+{
+  "status": "PASS",
+  "scope": "ID, metadata, cached feature, official label, archived pixel hash and checkpoint provenance checks; no Stage2 evaluation run",
+  "datasets": [
+    {
+      "split": "historical_test",
+      "rows": 1000,
+      "unique_images": 1000,
+      "label_counts": {
+        "E": 316,
+        "N": 327,
+        "C": 357
+      },
+      "npz_sha256": "23c0032b41805685c8a43cbcd82942e741a2851e1992139ae58dae4ffc0e384f",
+      "manifest_sha256": "a5dbd16bad3e17bc35dcef326dd0f70ee82ffc1a6b9298c4a60e8d820e4ac257",
+      "feature_checks": {
+        "image_norm": 1.1920928955078125e-07,
+        "text_norm": 1.1920928955078125e-07,
+        "abs_interaction": 0.0,
+        "product_interaction": 0.0
+      }
+    },
+    {
+      "split": "new_dev_holdout",
+      "rows": 200,
+      "unique_images": 200,
+      "label_counts": {
+        "E": 67,
+        "N": 78,
+        "C": 55
+      },
+      "npz_sha256": "3b1cfc7f1a55bb4bba4266a2e1e212fd778a3ff1c6ee75fc117c1722ccb37831",
+      "manifest_sha256": "9cd07c0d383d9e10bd8c9092a2067f0021894b195180bc82ca623f2fef71b3e5",
+      "feature_checks": {
+        "image_norm": 1.1920928955078125e-07,
+        "text_norm": 1.1920928955078125e-07,
+        "abs_interaction": 0.0,
+        "product_interaction": 0.0
+      }
+    }
+  ],
+  "split_overlap": [
+    {
+      "split_a": "train",
+      "split_b": "val_fit",
+      "sample_id_overlap": 0,
+      "image_id_overlap": 0,
+      "stored_pixel_hash_overlap": 0
+    },
+    {
+      "split_a": "train",
+      "split_b": "val_select",
+      "sample_id_overlap": 0,
+      "image_id_overlap": 0,
+      "stored_pixel_hash_overlap": 0
+    },
+    {
+      "split_a": "train",
+      "split_b": "historical_test",
+      "sample_id_overlap": 0,
+      "image_id_overlap": 0,
+      "stored_pixel_hash_overlap": 0
+    },
+    {
+      "split_a": "train",
+      "split_b": "new_dev_holdout",
+      "sample_id_overlap": 0,
+      "image_id_overlap": 0,
+      "stored_pixel_hash_overlap": 0
+    },
+    {
+      "split_a": "val_fit",
+      "split_b": "val_select",
+      "sample_id_overlap": 0,
+      "image_id_overlap": 0,
+      "stored_pixel_hash_overlap": 0
+    },
+    {
+      "split_a": "val_fit",
+      "split_b": "historical_test",
+      "sample_id_overlap": 0,
+      "image_id_overlap": 0,
+      "stored_pixel_hash_overlap": 0
+    },
+    {
+      "split_a": "val_fit",
+      "split_b": "new_dev_holdout",
+      "sample_id_overlap": 0,
+      "image_id_overlap": 0,
+      "stored_pixel_hash_overlap": 0
+    },
+    {
+      "split_a": "val_select",
+      "split_b": "historical_test",
+      "sample_id_overlap": 0,
+      "image_id_overlap": 0,
+      "stored_pixel_hash_overlap": 0
+    },
+    {
+      "split_a": "val_select",
+      "split_b": "new_dev_holdout",
+      "sample_id_overlap": 0,
+      "image_id_overlap": 0,
+      "stored_pixel_hash_overlap": 0
+    },
+    {
+      "split_a": "historical_test",
+      "split_b": "new_dev_holdout",
+      "sample_id_overlap": 0,
+      "image_id_overlap": 0,
+      "stored_pixel_hash_overlap": 0
+    }
+  ],
+  "prior_usage": [
+    {
+      "split": "historical_test",
+      "earlier_source": "early_prepared_5000",
+      "images": 0,
+      "source_sha256": "49e0fbb58854046f54b78b6196466ef7d1d71f7dbed4c53a8de25ad98dcec9fb"
+    },
+    {
+      "split": "new_dev_holdout",
+      "earlier_source": "early_prepared_5000",
+      "images": 0,
+      "source_sha256": "49e0fbb58854046f54b78b6196466ef7d1d71f7dbed4c53a8de25ad98dcec9fb"
+    },
+    {
+      "split": "historical_test",
+      "earlier_source": "pilot_100",
+      "images": 0,
+      "source_sha256": "4c583f1975a39c2b23132dff011b6bde61e8201108506c5de5ee2ee280e8168f"
+    },
+    {
+      "split": "new_dev_holdout",
+      "earlier_source": "pilot_100",
+      "images": 0,
+      "source_sha256": "4c583f1975a39c2b23132dff011b6bde61e8201108506c5de5ee2ee280e8168f"
+    },
+    {
+      "split": "historical_test",
+      "earlier_source": "early_validation",
+      "images": 0,
+      "source_sha256": "e97927df0aa7ee46bc8a1c72f179064409e04626876cd1b1a4749079686536dd"
+    },
+    {
+      "split": "new_dev_holdout",
+      "earlier_source": "early_validation",
+      "images": 130,
+      "source_sha256": "e97927df0aa7ee46bc8a1c72f179064409e04626876cd1b1a4749079686536dd"
+    },
+    {
+      "split": "historical_test",
+      "earlier_source": "early_test",
+      "images": 601,
+      "source_sha256": "f32147a0bd237babed1cfa9096736f29b7e078cd1595950e4d518fffbbf5c158"
+    },
+    {
+      "split": "new_dev_holdout",
+      "earlier_source": "early_test",
+      "images": 0,
+      "source_sha256": "f32147a0bd237babed1cfa9096736f29b7e078cd1595950e4d518fffbbf5c158"
+    },
+    {
+      "split": "historical_test",
+      "earlier_source": "t4_smoke",
+      "images": 0,
+      "source_sha256": "f63a2db3fc97a1aadafd64be7062794814b32e82418ddee5751e1233c7d8d53d"
+    },
+    {
+      "split": "new_dev_holdout",
+      "earlier_source": "t4_smoke",
+      "images": 0,
+      "source_sha256": "f63a2db3fc97a1aadafd64be7062794814b32e82418ddee5751e1233c7d8d53d"
+    }
+  ],
+  "models_locked": 21,
+  "temperatures_locked": 15,
+  "notes": [
+    "Pixel hashes checked from archived audits, not fresh image decoding; no perceptual near-duplicate search",
+    "Both evaluation sets already opened in previous project stages",
+    "130 supplementary images were included in early validation preparation; full out-of-package usage remains unconfirmed",
+    "Current split disjointness does not establish absence from CLIP/base/Jev pretraining or task adaptation"
+  ]
+}

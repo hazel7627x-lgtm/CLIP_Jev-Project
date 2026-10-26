@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "models": 9,
+  "new_KD_calibrations": 6,
+  "CE_replay_checks": 3,
+  "test_evaluated": false,
+  "retrained": false,
+  "all_argmax_unchanged": true,
+  "protocol_sha256": "d16716e4ccb525bff863c51324aeca4f00700b8528564833a274a53b7442dde4"
+}

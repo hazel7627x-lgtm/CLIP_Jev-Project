@@ -1,0 +1,11 @@
+﻿split_a,split_b,sample_id_overlap,image_id_overlap,stored_pixel_hash_overlap
+train,val_fit,0,0,0
+train,val_select,0,0,0
+train,historical_test,0,0,0
+train,new_dev_holdout,0,0,0
+val_fit,val_select,0,0,0
+val_fit,historical_test,0,0,0
+val_fit,new_dev_holdout,0,0,0
+val_select,historical_test,0,0,0
+val_select,new_dev_holdout,0,0,0
+historical_test,new_dev_holdout,0,0,0

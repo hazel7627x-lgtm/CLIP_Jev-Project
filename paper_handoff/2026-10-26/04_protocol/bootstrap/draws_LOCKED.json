@@ -1,0 +1,24 @@
+[
+  {
+    "split": "historical_test",
+    "seed": 20261026,
+    "repeats": 10000,
+    "unit": "image_id",
+    "order": "lexicographic ascending string image_id",
+    "image_count": 1000,
+    "draws_file": "bootstrap/historical_test_draws.npz",
+    "sha256": "7493ddb3775f3f26226550b5d6aa2123fbccb37916dfb13bc244951b666187e4",
+    "index_array_sha256": "103166f68eee3b87591db1351a555f7bae546da231e01c57b4bf26582ccfe9c2"
+  },
+  {
+    "split": "new_dev_holdout",
+    "seed": 20261027,
+    "repeats": 10000,
+    "unit": "image_id",
+    "order": "lexicographic ascending string image_id",
+    "image_count": 200,
+    "draws_file": "bootstrap/new_dev_holdout_draws.npz",
+    "sha256": "ba7d7b49a74393e3cac68ad55e60bc9967ca305b373e396bd3edd21e0ca156da",
+    "index_array_sha256": "0dd332ec03042fdd2c110b34f6d2a68e0b6c3c33fe8fb99c3771efb66b9cc5e2"
+  }
+]

@@ -1,0 +1,81 @@
+from pathlib import Path
+import csv,json,collections,shutil,argparse
+ROOT=Path(__file__).resolve().parent
+parser=argparse.ArgumentParser();parser.add_argument('--results',type=Path,default=ROOT/'results' if (ROOT/'results').is_dir() else ROOT)
+OUT=parser.parse_args().results.resolve()
+def rows(name):
+ with (OUT/name).open(encoding='utf-8-sig',newline='') as f:return list(csv.DictReader(f))
+summ={(r['split'],r['method'],r['variant']):r for r in rows('recomputed_summary.csv')}
+ci={(r['split'],r['comparison'],r['metric']):r for r in rows('paired_intervals.csv')}
+audit=json.loads((OUT/'FINAL_AUDIT.json').read_text(encoding='utf8'))
+changed=rows('changed_predictions.csv');flows=[]
+for split in ['historical_test','new_dev_holdout']:
+ for comparison in ['P1_KD_vs_CE','A3_teacher_cal']:
+  counts=collections.Counter(('ENC'[int(r['prediction_b'])]+'→'+'ENC'[int(r['prediction_a'])]) for r in changed if r['split']==split and r['comparison']==comparison)
+  for k,v in sorted(counts.items()):flows.append(dict(split=split,comparison=comparison,transition_B_to_A=k,total_over_three_seeds=v,mean_count_per_seed=v/3))
+with (OUT/'class_transition_summary.csv').open('w',encoding='utf-8-sig',newline='') as f:
+ w=csv.DictWriter(f,fieldnames=list(flows[0]));w.writeheader();w.writerows(flows)
+names={'CE':'图文CE','LS005':'标签平滑 ε=0.05','LS010':'标签平滑 ε=0.10','KD_raw':'图文原始Jev KD','KD_calibrated':'图文校准Jev KD','Text_CE':'文本CE','Text_KD_raw':'文本原始Jev KD'}
+text=['# Stage2 统一评价结果与独立复核','',
+'Hazel的统一评价已完成并通过独立复核。固定21个模型、两套数据、全部三个种子的结果齐全；没有重新训练、拟合温度或更换checkpoint。芙芙这边已经完成指标重算、CPU重放、预定配对区间和错误转移分析。','',
+'主要判断：原始KD在两套数据上的平均分类成绩均高于CE，但主要配对区间仍跨过0，不能确认稳定的分类优势。Teacher校准改善原始KD的概率质量，却没有改善分类成绩；简单的学生后校准是不可省略的强对照。','',
+'## 分类结果','',
+'以下为三个种子的Macro-F1均值±样本标准差，单位为百分数。正温度后处理不改变类别，所以后校准的分类结果与对应原始模型相同。','',
+'| 模型 | 历史1000条 | 补充200条 |','|---|---:|---:|']
+for method,label in names.items():
+ cells=[]
+ for split in ['historical_test','new_dev_holdout']:
+  r=summ[split,method,'raw'];cells.append(f"{float(r['macro_f1_mean'])*100:.3f} ± {float(r['macro_f1_sd'])*100:.3f}")
+ text.append('| '+label+' | '+' | '.join(cells)+' |')
+text+=['','## 预定分类比较与区间','',
+'差值方向为前者减后者，单位是百分点。95%区间来自运行前已保存的10000次图片配对抽样，三个训练种子固定。只有历史1000条的原始KD对CE为本轮主要比较；其他行及补充200条均为探索性辅助比较，未做多重比较校正。','',
+'| 比较 | 历史1000条 差值 [95%区间] | 补充200条 差值 [95%区间] |','|---|---:|---:|']
+for cid,label in [('P1_KD_vs_CE','原始KD − CE'),('A1_KD_vs_LS005','原始KD − LS005'),('A2_KD_vs_LS010','原始KD − LS010'),('A3_teacher_cal','校准KD − 原始KD'),('A7_text_KD','文本KD − 文本CE'),('A8_image_input_CE','图文CE − 文本CE'),('A9_image_input_KD','图文KD − 文本KD')]:
+ cells=[]
+ for split in ['historical_test','new_dev_holdout']:
+  r=ci[split,cid,'macro_f1'];cells.append(f"{float(r['delta'])*100:+.3f} [{float(r['ci_low'])*100:+.3f}, {float(r['ci_high'])*100:+.3f}]")
+ text.append('| '+label+' | '+' | '.join(cells)+' |')
+text+=['','原始KD对CE的正向点估计保留下来，但两个区间均跨0；这既不是已证实优越，也不是已证实无效或等效。原始KD对两种标签平滑的分类区间也都跨0，不能据此宣称已经排除软目标正则化解释。','',
+'历史1000条上，校准KD相对原始KD的F1差值区间完全低于0；这是预定辅助比较中的负向结果。图文输入相对文本输入的两个区间完全高于0，支持这套设置下图像输入有贡献，但仍不能单独证明跨模态推理机制。补充200条上的这些输入比较区间更宽，均跨0。','',
+'## 概率质量','',
+'NLL、ECE、Brier越低越好。所有温度都在之前的val_fit上固定，本轮没有重新拟合。','',
+'| 集合 | 模型与后处理 | NLL | ECE % | Brier |','|---|---|---:|---:|---:|']
+for split,splitlabel in [('historical_test','历史1000条'),('new_dev_holdout','补充200条')]:
+ for method,variant,label in [('CE','raw','CE'),('CE','post_temperature','CE＋学生后校准'),('KD_raw','raw','原始KD'),('KD_raw','post_temperature','原始KD＋学生后校准'),('KD_calibrated','raw','校准KD'),('KD_calibrated','post_temperature','校准KD＋学生后校准')]:
+  r=summ[split,method,variant];text.append(f"| {splitlabel} | {label} | {float(r['nll_mean']):.6f} | {float(r['ece10_mean'])*100:.3f} | {float(r['brier_mean']):.6f} |")
+text+=['',
+'历史1000条上，原始KD的未校准NLL和ECE反而高于CE，说明分类F1点估计提高与置信度质量改善不是同一件事。直接对原始KD学生做后校准后，NLL由0.908463降至0.861393，ECE由10.230%降至3.438%，Brier也下降；三个变化的预定辅助区间均低于0。','',
+'校准KD与未经后校准的原始KD相比，历史1000条上的NLL、ECE、Brier都改善，但分类F1下降。不能把“更好的概率”写成“更好的分类”。','',
+'与“原始KD＋学生后校准”比较，校准KD不再占优：历史1000条上的NLL差值为+0.009281，95%区间[+0.002574,+0.016025]，方向不利于校准KD；ECE差值区间跨0。双方都做学生后校准后，该集合的NLL、ECE和Brier差值区间都跨0，不能据此证明两者等效。','',
+'补充200条上，原始KD学生后校准的三项概率指标均值也下降，但相应变化区间均跨0。不能把历史1000条的结论直接搬成200条上的确定结论。所有68项配对区间都保存在paired_intervals.csv，完整保留跨0和负向结果。','',
+'另外，CE后校准的ECE均值在两套数据上都低于原始KD后校准；不存在一种方法全面赢下所有指标。','',
+'## 错误转移','',
+'以下数量是每个种子分别计算后取平均，不是集成模型，也不是新增样本数。','',
+'- 历史1000条：原始KD平均修正CE的71条错误，同时把CE原本正确的约55.67条改错，净增加约15.33条正确预测，对应Accuracy提高1.53个百分点。Macro-F1提高1.57个百分点不能用净正确数直接代替。',
+'- 补充200条：原始KD平均修正约12.67条，同时损失约10.67条，净增加2条正确预测。',
+'- 历史1000条：Teacher校准KD相对原始KD平均修正13条、损失约20.33条，净减少约7.33条正确预测。',
+'- 补充200条：校准KD相对原始KD平均修正3条、损失约5.67条，净减少约2.67条正确预测。','',
+'这些记录说明提升与退化同时存在，不能把每个变化都称为知识传递。changed_predictions.csv保留逐条改变，class_transition_summary.csv保留类别转换方向；它们是描述性错误分析，不是对错误原因的因果证明。','',
+'## 这次结果支持什么','',
+'1. 可以报告固定设置下KD相对CE的正向平均差值，以及仍跨0的区间；不能改写成独立确认的稳定分类提升。',
+'2. 可以报告图像输入在历史1000条辅助比较中的贡献；不能因此声称已经解决组合关系推理。',
+'3. 可以报告Teacher校准的概率与分类取舍，以及简单学生后校准的竞争力；不能将概率质量改善全归于Teacher校准。',
+'4. 不能根据这轮结果改温度、挑种子或挑checkpoint，再把重算结果当作同一轮确认实验。','',
+'下一步若继续补实验，应优先针对尚未回答的独立问题，例如在相同Stage2训练条件下补base Teacher原始KD的三种子对照，检验教师来源的影响。它属于后续探索，不能用来“补救”本轮跨0区间。现有本轮结果应先完整归档。','',
+'## 核验范围与数据边界','',
+f"包内总校验清单中的{audit['verified_files']}个文件逐一匹配；此外21个模型文件按预先锁定的模型SHA256核验，输入子清单与原发出版本逐字节匹配。21个模型、两套评价数据、原始与后校准合计{audit['metric_rows']}组指标、{audit['probability_rows']}行概率全部重算一致。",'',
+f"独立CPU重放覆盖21个模型×开发集与两套评价集，共{audit['cpu_replay_model_split_pairs']}组。最大logit绝对差约{audit['cpu_replay_max_abs_logit_difference']:.9f}，类别不一致数为0。表中成绩和区间使用Hazel原GPU logits，CPU只用于独立核验。",'',
+'统计使用运行前固定的两套bootstrap抽样数组。对所有模型与后处理方式，额外以三个选定抽样重复直接重算，核对矩阵加权实现，误差在数值精度范围内。没有执行上传包里的Python代码，没有重新训练或拟合参数。','',
+'两套评价集都已在项目先前阶段查看成绩。补充200张中130张曾进入早期验证准备，历史1000张中601张曾进入早期测试准备；包外完整使用史未完全确认。区间固定三个训练种子，仅描述这批模型和经验图片分布下的抽样不确定性，不修正反复使用评价集造成的选择偏差。','',
+'## 文件与复现','',
+'- FINAL_AUDIT.json：最终核验状态和原始ZIP的SHA256。',
+'- recomputed_summary.csv、recomputed_per_seed.csv：独立重算主表与逐种子表。',
+'- paired_intervals.csv：全部68项预定配对区间。',
+'- error_transitions_per_seed.csv、error_transitions_summary.csv、changed_predictions.csv、class_transition_summary.csv：完整错误转移记录。',
+'- independent_CPU_replay.csv：63组独立重放差异。',
+'- review.py、summarize.py：本次核验、统计和文档生成代码。运行依赖原始Hazel ZIP及先前锁定协议输入包。可执行 `python review.py --source-zip 原始ZIP路径 --protocol-dir 协议输入包解压目录 --out 新输出目录`，再执行 `python summarize.py --results 新输出目录`。使用execution_environment.json中的环境，不覆盖已交付输出。',
+'- 原始Hazel统一评价ZIP包含模型、特征、预测、协议及抽样索引；本统计包是它的补充，不能替代原始包。','']
+(OUT/'统一评价结果解读.md').write_text('\n'.join(text),encoding='utf8')
+for name in ['review.py','summarize.py']:
+ if (ROOT/name).resolve()!=(OUT/name).resolve():shutil.copyfile(ROOT/name,OUT/name)
+print('Report generated.')

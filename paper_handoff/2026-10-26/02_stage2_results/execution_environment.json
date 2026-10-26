@@ -1,0 +1,7 @@
+{
+  "torch": "2.11.0+cpu",
+  "numpy": "2.3.5",
+  "python": "3.12.14",
+  "device": "cpu",
+  "purpose": "Independent replay and statistics only; reported metrics use original GPU logits"
+}

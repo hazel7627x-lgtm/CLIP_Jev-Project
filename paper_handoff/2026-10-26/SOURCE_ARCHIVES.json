@@ -1,0 +1,68 @@
+[
+  {
+    "filename": "Stage2_Hazel_UnifiedEvaluation_20261026-20261026T090809Z-1-001.zip",
+    "bytes": 122782676,
+    "sha256": "aebcae4f2ed585cce01d5d8d22ddcbfcb04e7c7eed6281e41ef198ef4b02783e",
+    "included_in_git": false
+  },
+  {
+    "filename": "Stage2_Hazel_results_f54a0fef.zip",
+    "bytes": 131029475,
+    "sha256": "c94a2e5487f261a141c826e38fc3a604f33cd6b4301ece4487f06993352abe74",
+    "included_in_git": false
+  },
+  {
+    "filename": "Stage2_Hazel_TextOnly.zip",
+    "bytes": 187945903,
+    "sha256": "981471218efec0ac15757ac10a6327c10dd0b425af06f12c21d98add892dca7a",
+    "included_in_git": false
+  },
+  {
+    "filename": "CLIP_Jev_CE_LS_学生后校准_20261023-20261023T090212Z-1-001.zip",
+    "bytes": 204335202,
+    "sha256": "342d73236e2ecc99b4103a9ce76be9a71b9888aef5b9a3af99fb045047e55411",
+    "included_in_git": false
+  },
+  {
+    "filename": "CLIP_Jev_CE三学习率_两种LS_补充-20261023T092504Z-1-001.zip",
+    "bytes": 298004009,
+    "sha256": "51aca99c1e2372e6cc61c23f26cc8a7b935a90f3f3065198faa1ad9980b60c12",
+    "included_in_git": false
+  },
+  {
+    "filename": "final_round_20261013_185746_6bee2c.zip",
+    "bytes": 18366679,
+    "sha256": "4caf7d6163c8459ce13195593e74390eb7a86106f9cd3ddec1a3a21db19498fc",
+    "included_in_git": false
+  },
+  {
+    "filename": "P1_完整交付_20261014_114015_c88b0d.zip",
+    "bytes": 5891005,
+    "sha256": "1f4e12aeb0542119bcc01a67d26f1a2f2c709542e92815aaf03898d25eb7f757",
+    "included_in_git": false
+  },
+  {
+    "filename": "evaluation_inputs-20261014T040421Z-1-001.zip",
+    "bytes": 10970282,
+    "sha256": "543f461a239d783f4111879caae6fd31c524bfb164738db04bc5b6134898e9ab",
+    "included_in_git": false
+  },
+  {
+    "filename": "Stage2_统一评价_协议与输入_20261026.zip",
+    "bytes": 34681245,
+    "sha256": "bface2430dbe8315abba08642f20f19532fda3115c474edb77b0aed48bedfc53",
+    "included_in_git": false
+  },
+  {
+    "filename": "P0_论文主结果与复现归档_20261014.zip",
+    "bytes": 349971829,
+    "sha256": "9da74b434d3cf4b7f39764325fc5bab2e8669b214ffbec94684cc350b2aa3081",
+    "included_in_git": false
+  },
+  {
+    "filename": "P1_Teacher能力与推理成本_20261014.zip",
+    "bytes": 17648439,
+    "sha256": "ef84374eba7e41d66c1ab1448510cfde57a714849febd7b68dbba8c02b231a1e",
+    "included_in_git": false
+  }
+]

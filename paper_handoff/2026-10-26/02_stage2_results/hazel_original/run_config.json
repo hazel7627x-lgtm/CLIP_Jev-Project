@@ -1,0 +1,26 @@
+{
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "torch": "2.11.0+cu130",
+    "device": "cuda",
+    "gpu": "Tesla T4",
+    "cuda": "13.0",
+    "cudnn": 92700,
+    "dtype": "float32",
+    "tf32": false,
+    "deterministic": true,
+    "batch_size": 256
+  },
+  "protocol_sha256": "f4e5acb3ca81cf8a2c27bd347b337c29cfaec9e6717c0793574ccd0a659ffe4e",
+  "model_registry_sha256": "10f5a1badd7619dfaf7c347fd50a027a34e1812bceedc0712422f62f852af1b5",
+  "code_sha256": "5e9efda1db372b6dc42096d660d6ba67c6a256aed3453858712605d3aabe54c5",
+  "inference_only": true,
+  "replay_tolerance": 0.0001,
+  "label_order": [
+    "E",
+    "N",
+    "C"
+  ]
+}

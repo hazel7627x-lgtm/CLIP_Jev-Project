@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE",
+  "raw_predictions": 25200,
+  "probability_rows": 43200,
+  "raw_model_split_outputs": 42,
+  "total_variant_split_outputs": 72,
+  "training_performed": false,
+  "temperature_fitted": false,
+  "bootstrap_performed": false,
+  "protocol_sha256": "f4e5acb3ca81cf8a2c27bd347b337c29cfaec9e6717c0793574ccd0a659ffe4e",
+  "interpretation": "本轮为已查看过成绩的数据上的后续补充评价，不能解释为首次独立确认。补充200张中130张曾进入早期验证准备，历史1000张中601张曾进入早期测试准备；准备清单不证明每条实际运行过，包外完整使用史仍未完全确认。三种子概率未做集成，重复概率行不构成独立样本量。人工标注继续暂停。"
+}

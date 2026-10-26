@@ -1,0 +1,14 @@
+[
+  {
+    "split": "new_dev_holdout",
+    "source_path": "C:\\Users\\2006\\Documents\\ChatGPT\\CLIP科研\\work\\teacher_pre_20261010\\embedded\\annotations\\snli_ve_dev.jsonl",
+    "source_sha256": "25aac5515c68293fd879f69951f14da407495e9decf630ab8dfbd77b64ce0cfd",
+    "matched_claims": 200
+  },
+  {
+    "split": "historical_test",
+    "source_path": "C:\\Users\\2006\\Documents\\ChatGPT\\CLIP科研\\work\\teacher_pre_20261010\\embedded\\annotations\\snli_ve_test.jsonl",
+    "source_sha256": "3fffd289d99097df26d9855126f51b23c5c5a62f6c30dc275b9faaa2f50fabb8",
+    "matched_claims": 1000
+  }
+]

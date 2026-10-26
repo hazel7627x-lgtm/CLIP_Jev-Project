@@ -1,0 +1,320 @@
+{
+  "9aacd364c94b4bb5908aebc4fda71615d2b3202def2b51723a8caa3644e891ce": {
+    "method": "CE",
+    "seed": 20261010,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::Day2_preserved/groups/CE_lr0.0003_eps0/runs/CE_20261010/done.json"
+    ]
+  },
+  "912a21af6b911195463e18454a7db83da07c12f577ff34d420c0a6a9bc8f5f2a": {
+    "method": "CE",
+    "seed": 20261011,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::Day2_preserved/groups/CE_lr0.0003_eps0/runs/CE_20261011/done.json"
+    ]
+  },
+  "6576beb1d68c170e92925067f6a9fd834cf6edc3dd155e723bb91d7018b15d92": {
+    "method": "CE",
+    "seed": 20261012,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::Day2_preserved/groups/CE_lr0.0003_eps0/runs/CE_20261012/done.json"
+    ]
+  },
+  "e5aab4b36dbd4aa40137d3191da3f0fc569fd6772be555c580c9abcb6528dcc8": {
+    "method": "CE",
+    "seed": 20261010,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::Day2_preserved/groups/CE_lr0.001_eps0/runs/CE_20261010/done.json",
+      "CLIP_Jev_CE_LS_学生后校准_20261023-20261023T090212Z-1-001.zip::CLIP_Jev_CE_LS_学生后校准_20261023/runs/CE_20261010/done.json"
+    ]
+  },
+  "7fd2cd7f35191a8fb7431824863ca10bab4b63061e9852b7bf2d6f46a4354c5a": {
+    "method": "CE",
+    "seed": 20261011,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::Day2_preserved/groups/CE_lr0.001_eps0/runs/CE_20261011/done.json",
+      "CLIP_Jev_CE_LS_学生后校准_20261023-20261023T090212Z-1-001.zip::CLIP_Jev_CE_LS_学生后校准_20261023/runs/CE_20261011/done.json"
+    ]
+  },
+  "69e2fc1e6b6a00706cc9371a467a5b149285692c785671cf0db59f19aa266001": {
+    "method": "CE",
+    "seed": 20261012,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::Day2_preserved/groups/CE_lr0.001_eps0/runs/CE_20261012/done.json",
+      "CLIP_Jev_CE_LS_学生后校准_20261023-20261023T090212Z-1-001.zip::CLIP_Jev_CE_LS_学生后校准_20261023/runs/CE_20261012/done.json"
+    ]
+  },
+  "9aca16b521c5309bdcf8feb93a24318802f61aea851d651680c6a0950a3a6a07": {
+    "method": "CE",
+    "seed": 20261010,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::Day2_preserved/groups/CE_lr0.003_eps0/runs/CE_20261010/done.json"
+    ]
+  },
+  "6f6244f6704aaa64790e3475a38aee3d6548b7ab3589296640f576acb4b30570": {
+    "method": "CE",
+    "seed": 20261011,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::Day2_preserved/groups/CE_lr0.003_eps0/runs/CE_20261011/done.json"
+    ]
+  },
+  "302054e544a561edc3db25d33b5cdc301b8314dab18e78c7b95c48537baa6a49": {
+    "method": "CE",
+    "seed": 20261012,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::Day2_preserved/groups/CE_lr0.003_eps0/runs/CE_20261012/done.json"
+    ]
+  },
+  "43c4b27efb76a41074457a91eb0422bd758aa48ead34bdf9c77b76508aa9a8d7": {
+    "method": "LS",
+    "seed": 20261010,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::Day2_preserved/groups/LS_lr0.0003_eps0.05/runs/LS_20261010/done.json"
+    ]
+  },
+  "8695eb9c23c5a53b5a5857d89843b46687aaae8071bbb8c5811c359e9c329a2e": {
+    "method": "LS",
+    "seed": 20261011,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::Day2_preserved/groups/LS_lr0.0003_eps0.05/runs/LS_20261011/done.json"
+    ]
+  },
+  "b6567c9a83150f6defe0ca268c7de3c2092f4a52cbd27356f90a64dccbd5f454": {
+    "method": "LS",
+    "seed": 20261012,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::Day2_preserved/groups/LS_lr0.0003_eps0.05/runs/LS_20261012/done.json"
+    ]
+  },
+  "111144e14a03253980622a914dd82ca0c9c694b51f2ac62e4095720ceb4ef252": {
+    "method": "LS",
+    "seed": 20261010,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::Day2_preserved/groups/LS_lr0.0003_eps0.1/runs/LS_20261010/done.json"
+    ]
+  },
+  "f625a7462d45d43da5d058c6c65e7fcfccbae31ddb5d80526853156229a9e5b0": {
+    "method": "LS",
+    "seed": 20261011,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::Day2_preserved/groups/LS_lr0.0003_eps0.1/runs/LS_20261011/done.json"
+    ]
+  },
+  "c006c5277ff8d3e263e16da86052104b7a755d4b658796c1afaa0853ac840c03": {
+    "method": "LS",
+    "seed": 20261012,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::Day2_preserved/groups/LS_lr0.0003_eps0.1/runs/LS_20261012/done.json"
+    ]
+  },
+  "0f6e6cc06dbfef95e4e9ffeab7edb2b0e44bff5d30dd94c39c5261b9ff5727c7": {
+    "method": "KD_calibrated",
+    "seed": 20261010,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::groups/KD_calibrated_alpha0.25/runs/KD_calibrated_20261010/done.json"
+    ]
+  },
+  "5f475a39ba0c3168f5ebac5033d8efe78a18aaff5a24328dbecfc51cb8680f80": {
+    "method": "KD_calibrated",
+    "seed": 20261011,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::groups/KD_calibrated_alpha0.25/runs/KD_calibrated_20261011/done.json"
+    ]
+  },
+  "eaf578ba16e90fae3cbe0d3a1fde165d5a73ccb681292f4214f66e1e59683018": {
+    "method": "KD_calibrated",
+    "seed": 20261012,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::groups/KD_calibrated_alpha0.25/runs/KD_calibrated_20261012/done.json"
+    ]
+  },
+  "a326322bc6cf09a76ba67dd4d2b7b704c959dc92d289668af05bafb8c4962070": {
+    "method": "KD_calibrated",
+    "seed": 20261010,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::groups/KD_calibrated_alpha0.5/runs/KD_calibrated_20261010/done.json"
+    ]
+  },
+  "485ac24be88f73949f73162bdabf8a8a22e3df0754be2253ea3fa8c3ce9e891b": {
+    "method": "KD_calibrated",
+    "seed": 20261011,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::groups/KD_calibrated_alpha0.5/runs/KD_calibrated_20261011/done.json"
+    ]
+  },
+  "8e03fd5565726e95a07c42846e835fce0d1bd43e413533577e89584fdf6fa89e": {
+    "method": "KD_calibrated",
+    "seed": 20261012,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::groups/KD_calibrated_alpha0.5/runs/KD_calibrated_20261012/done.json"
+    ]
+  },
+  "c100fee94cf2d82c8e1656d4be468c1655c79a81817b678436c28e148c6a4a4f": {
+    "method": "KD_calibrated",
+    "seed": 20261010,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::groups/KD_calibrated_alpha0.75/runs/KD_calibrated_20261010/done.json"
+    ]
+  },
+  "c2a4ee53871bf0e222c045d8e0e9769573007ddc72a1a1ee698e9cd0f3010381": {
+    "method": "KD_calibrated",
+    "seed": 20261011,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::groups/KD_calibrated_alpha0.75/runs/KD_calibrated_20261011/done.json"
+    ]
+  },
+  "35b2d9d24c1b2926ce621fbfa428028cf7088e55dc39d7e2a2ec84338c5e5cec": {
+    "method": "KD_calibrated",
+    "seed": 20261012,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::groups/KD_calibrated_alpha0.75/runs/KD_calibrated_20261012/done.json"
+    ]
+  },
+  "8d3924010f33cd0727dc57b7692c412ed6c082bdd2537a9da10b8ec149c2ecb6": {
+    "method": "KD_raw",
+    "seed": 20261010,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::groups/KD_raw_alpha0.25/runs/KD_raw_20261010/done.json"
+    ]
+  },
+  "c87defab04c66d870c0fd8b809890600d83b62d0afde7eee27a262d8be09ff92": {
+    "method": "KD_raw",
+    "seed": 20261011,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::groups/KD_raw_alpha0.25/runs/KD_raw_20261011/done.json"
+    ]
+  },
+  "71d9f9bbbdeab543af229b37ce300fdd80431892f5c04b1ba0fbc060d7d9287c": {
+    "method": "KD_raw",
+    "seed": 20261012,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::groups/KD_raw_alpha0.25/runs/KD_raw_20261012/done.json"
+    ]
+  },
+  "f4239577b0a637d9dc8a86adefb83132f64c050652bb061bf248c7bd12490a59": {
+    "method": "KD_raw",
+    "seed": 20261010,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::groups/KD_raw_alpha0.5/runs/KD_raw_20261010/done.json"
+    ]
+  },
+  "21da8cee38293d72ce6faf7a999e06296c235e3345842d0d6c8618f09d1b20b4": {
+    "method": "KD_raw",
+    "seed": 20261011,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::groups/KD_raw_alpha0.5/runs/KD_raw_20261011/done.json"
+    ]
+  },
+  "971448f9b6b12bda0231a18af24b672c85efe5c3201342478d283eafc68721ff": {
+    "method": "KD_raw",
+    "seed": 20261012,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::groups/KD_raw_alpha0.5/runs/KD_raw_20261012/done.json"
+    ]
+  },
+  "4f2b53ea1887fd5d8630604fde0b07da46d2539f13f16adf5f9de6461053ec7b": {
+    "method": "KD_raw",
+    "seed": 20261010,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::groups/KD_raw_alpha0.75/runs/KD_raw_20261010/done.json"
+    ]
+  },
+  "3d905cc39a34bab5a4a3021d82899be3d2c226e80a44a2060cad035f7d03e9fc": {
+    "method": "KD_raw",
+    "seed": 20261011,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::groups/KD_raw_alpha0.75/runs/KD_raw_20261011/done.json"
+    ]
+  },
+  "c1a157a362715deb96d1654cfead88c8d6e2c4506be34401210dfc19bfd016d5": {
+    "method": "KD_raw",
+    "seed": 20261012,
+    "locations": [
+      "Stage2_Hazel_results_f54a0fef.zip::groups/KD_raw_alpha0.75/runs/KD_raw_20261012/done.json"
+    ]
+  },
+  "cabf97ea1566665a78c2128af66b84394fada3b2ce06faed87b070ede7acaf38": {
+    "method": "KD_raw",
+    "seed": 20261010,
+    "locations": [
+      "CLIP_Jev_CE_LS_学生后校准_20261023-20261023T090212Z-1-001.zip::CLIP_Jev_CE_LS_学生后校准_20261023/runs/KD_raw_20261010/done.json"
+    ]
+  },
+  "7366766c3be90d027fe219fcf0d6dc4d4a7775328a73397b2e7ba2decbf68f75": {
+    "method": "LS",
+    "seed": 20261012,
+    "locations": [
+      "CLIP_Jev_CE_LS_学生后校准_20261023-20261023T090212Z-1-001.zip::CLIP_Jev_CE_LS_学生后校准_20261023/runs/LS_20261012/done.json"
+    ]
+  },
+  "9bdab0f3f79526815596b2507dec97234366edbde35d3ff66e69e75af0144b0d": {
+    "method": "KD_raw",
+    "seed": 20261012,
+    "locations": [
+      "CLIP_Jev_CE_LS_学生后校准_20261023-20261023T090212Z-1-001.zip::CLIP_Jev_CE_LS_学生后校准_20261023/runs/KD_raw_20261012/done.json"
+    ]
+  },
+  "9829a8e903123e7d67517467be69924de637715ca31927a65b19b38053f4d003": {
+    "method": "KD_raw",
+    "seed": 20261011,
+    "locations": [
+      "CLIP_Jev_CE_LS_学生后校准_20261023-20261023T090212Z-1-001.zip::CLIP_Jev_CE_LS_学生后校准_20261023/runs/KD_raw_20261011/done.json"
+    ]
+  },
+  "8074994139e5b7e14531bb22ff85d1a7abbeb8a5350b6ab3a2ed72a5d3541a6d": {
+    "method": "LS",
+    "seed": 20261011,
+    "locations": [
+      "CLIP_Jev_CE_LS_学生后校准_20261023-20261023T090212Z-1-001.zip::CLIP_Jev_CE_LS_学生后校准_20261023/runs/LS_20261011/done.json"
+    ]
+  },
+  "ec42cc6286c7bce33fe66b8a24b00f530c678c8be8b4f623b1d3f880a753b61d": {
+    "method": "LS",
+    "seed": 20261010,
+    "locations": [
+      "CLIP_Jev_CE_LS_学生后校准_20261023-20261023T090212Z-1-001.zip::CLIP_Jev_CE_LS_学生后校准_20261023/runs/LS_20261010/done.json"
+    ]
+  },
+  "89179c3958840197a893e6494a0e3b60fe0cfd3774d199054a9fd64ba0027336": {
+    "method": "Text_CE",
+    "seed": 20261012,
+    "locations": [
+      "Stage2_Hazel_TextOnly.zip::Stage2_Hazel_TextOnly_20261026/runs/Text_CE_20261012/done.json"
+    ]
+  },
+  "aa5dacfcee5b96cd07136551cd30802981dc43b67dc30eb1723beeb6625ec6be": {
+    "method": "Text_KD_raw",
+    "seed": 20261012,
+    "locations": [
+      "Stage2_Hazel_TextOnly.zip::Stage2_Hazel_TextOnly_20261026/runs/Text_KD_raw_20261012/done.json"
+    ]
+  },
+  "0fa4d7c5872528f3d07557bab63676269cadbefc8aed5eb059a3298dda75a6b7": {
+    "method": "Text_KD_raw",
+    "seed": 20261011,
+    "locations": [
+      "Stage2_Hazel_TextOnly.zip::Stage2_Hazel_TextOnly_20261026/runs/Text_KD_raw_20261011/done.json"
+    ]
+  },
+  "7a9fe9c2c2bde9f68b7151b0b497101bd977eb7d35d4ade461d19e7f777b5104": {
+    "method": "Text_CE",
+    "seed": 20261011,
+    "locations": [
+      "Stage2_Hazel_TextOnly.zip::Stage2_Hazel_TextOnly_20261026/runs/Text_CE_20261011/done.json"
+    ]
+  },
+  "bc021213f6069b576c1f01ab46de34cbc719c81ffa28383142c6aee45edbb692": {
+    "method": "Text_KD_raw",
+    "seed": 20261010,
+    "locations": [
+      "Stage2_Hazel_TextOnly.zip::Stage2_Hazel_TextOnly_20261026/runs/Text_KD_raw_20261010/done.json"
+    ]
+  },
+  "0e0f07249a7e167429c78e1b74c033ad34a9d629ebdae272f0608fe00d6198a8": {
+    "method": "Text_CE",
+    "seed": 20261010,
+    "locations": [
+      "Stage2_Hazel_TextOnly.zip::Stage2_Hazel_TextOnly_20261026/runs/Text_CE_20261010/done.json"
+    ]
+  }
+}

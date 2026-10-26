@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "delivery_files_checked": 70,
+  "immutable_package_files_checked": 35,
+  "teacher_metric_rows": 4,
+  "teacher_predictions": 400,
+  "student_metric_rows": 21,
+  "student_predictions": 4200,
+  "maximum_metric_difference": 1.1102230246251565e-16,
+  "selected_cost_round": "round_20261014T100904Z_2cf2cd",
+  "complete_cost_models": 3,
+  "measured_requests": 450,
+  "measurement_probabilities_max_difference": 2.771615982055664e-06,
+  "same_gpu": true,
+  "configuration_patch_only_json_normalization": true,
+  "p0_archive_files_checked": 68,
+  "p0_prior_replay": {
+    "status": "PASS",
+    "scope": "Locked checkpoint plus original cached feature replay; no training or selection",
+    "models": 21,
+    "splits": 2,
+    "model_split_replays": 42,
+    "item_predictions": 25200,
+    "class_mismatches": 0,
+    "max_probability_difference": 4.172325134277344e-07,
+    "max_metric_difference": 3.3462415283125324e-08,
+    "paired_metric_intervals_verified": 70,
+    "max_interval_difference": 3.407464166382823e-08,
+    "absolute_tolerance": 1e-06,
+    "torch": "2.11.0+cpu",
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "device": "cpu",
+    "batch_size": 128,
+    "original_evaluation_runtime": {
+      "device": "cpu",
+      "torch": "2.11.0+cu130",
+      "numpy": "2.2.6"
+    },
+    "limitations": [
+      "Replay consumes the locked CLIP feature caches; raw image decoding/CLIP encoding was not repeated.",
+      "Hashes establish file identity, not independence or timing of historical data use.",
+      "200-image supplementary set overlaps prior preparation records; do not describe it as globally unseen.",
+      "Bootstrap fixes the three trained seeds, is image-paired percentile 95%, and is not multiplicity corrected.",
+      "Teacher evaluation on 200 and full pipeline T4 costs remain P1 work."
+    ]
+  },
+  "scope": "Local recomputation of saved predictions/timings and hash verification. No new GPU execution or training.",
+  "limitations": [
+    "200-image prior exposure caveat remains.",
+    "One GPU session and one full round; 150 requests per model are repeated measurements on 50 inputs, not 150 independent images.",
+    "Student FP32 vs Teacher FP16 backbone/FP32 adapters and different historical software stacks.",
+    "PyTorch allocated/reserved memory is not whole-device memory. Disk/download excluded; cached loading is not full cold start."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-26",
+  "stage1_best_checkpoints": 33,
+  "stage2_best_checkpoints": 45,
+  "stage2_core": 39,
+  "stage2_exploratory_extra": 6,
+  "checkpoint_sha_overlap": 0,
+  "total_in_audited_archives": 78,
+  "training_resumes_excluded": true,
+  "result_index_rows": 38,
+  "stage2_base_lr0003_found": false,
+  "old_base_lr": 0.001,
+  "new_stage2_lr": 0.0003,
+  "no_new_experiment": true
+}

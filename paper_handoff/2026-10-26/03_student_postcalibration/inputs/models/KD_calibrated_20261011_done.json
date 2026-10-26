@@ -1,0 +1,15 @@
+{
+  "identity": {
+    "protocol_sha256": "346b11d706b9c2f764cbc9f3e9ec062fb8357173d4aed12d47c6f958a673c2b0",
+    "method": "KD_calibrated",
+    "seed": 20261011
+  },
+  "method": "KD_calibrated",
+  "seed": 20261011,
+  "best_epoch": 21,
+  "validation_macro_f1": 0.6693674580540282,
+  "validation_nll": 0.8321245488326509,
+  "checkpoint": "runs/KD_calibrated_20261011/best.pt",
+  "checkpoint_sha256": "c2a4ee53871bf0e222c045d8e0e9769573007ddc72a1a1ee698e9cd0f3010381",
+  "history_sha256": "5e80d5b6907e365e1cf1ae66dc657c20a9a87e04434d71980cda8c46da1368d8"
+}

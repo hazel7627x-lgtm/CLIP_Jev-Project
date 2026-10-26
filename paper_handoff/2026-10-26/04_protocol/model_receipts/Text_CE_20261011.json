@@ -1,0 +1,15 @@
+{
+  "identity": {
+    "protocol_sha256": "f44404969537d3bfd9b3edfd29f7801beb22120089d2cebdfa65f75fe4db37e3",
+    "method": "Text_CE",
+    "seed": 20261011
+  },
+  "method": "Text_CE",
+  "seed": 20261011,
+  "best_epoch": 14,
+  "validation_macro_f1": 0.5714630461378395,
+  "validation_nll": 0.9391109585214837,
+  "checkpoint": "runs/Text_CE_20261011/best.pt",
+  "checkpoint_sha256": "7a9fe9c2c2bde9f68b7151b0b497101bd977eb7d35d4ade461d19e7f777b5104",
+  "history_sha256": "a02c45a106e85f26ba92c3c26ffb0a94baf598a2b414c6458f7f748598642036"
+}

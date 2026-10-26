@@ -1,0 +1,56 @@
+[
+  {
+    "id": "CE_20261010",
+    "max_abs_gpu_cpu_logit_difference": 7.152557373046875e-07,
+    "predictions_equal": true,
+    "CE_temperature_reproduced": true
+  },
+  {
+    "id": "CE_20261011",
+    "max_abs_gpu_cpu_logit_difference": 7.152557373046875e-07,
+    "predictions_equal": true,
+    "CE_temperature_reproduced": true
+  },
+  {
+    "id": "CE_20261012",
+    "max_abs_gpu_cpu_logit_difference": 1.1920928955078125e-06,
+    "predictions_equal": true,
+    "CE_temperature_reproduced": true
+  },
+  {
+    "id": "KD_raw_20261010",
+    "max_abs_gpu_cpu_logit_difference": 7.152557373046875e-07,
+    "predictions_equal": true,
+    "CE_temperature_reproduced": false
+  },
+  {
+    "id": "KD_raw_20261011",
+    "max_abs_gpu_cpu_logit_difference": 7.152557373046875e-07,
+    "predictions_equal": true,
+    "CE_temperature_reproduced": false
+  },
+  {
+    "id": "KD_raw_20261012",
+    "max_abs_gpu_cpu_logit_difference": 7.152557373046875e-07,
+    "predictions_equal": true,
+    "CE_temperature_reproduced": false
+  },
+  {
+    "id": "KD_calibrated_20261010",
+    "max_abs_gpu_cpu_logit_difference": 7.152557373046875e-07,
+    "predictions_equal": true,
+    "CE_temperature_reproduced": false
+  },
+  {
+    "id": "KD_calibrated_20261011",
+    "max_abs_gpu_cpu_logit_difference": 5.364418029785156e-07,
+    "predictions_equal": true,
+    "CE_temperature_reproduced": false
+  },
+  {
+    "id": "KD_calibrated_20261012",
+    "max_abs_gpu_cpu_logit_difference": 4.76837158203125e-07,
+    "predictions_equal": true,
+    "CE_temperature_reproduced": false
+  }
+]

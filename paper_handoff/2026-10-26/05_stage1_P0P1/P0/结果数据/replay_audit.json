@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "scope": "Locked checkpoint plus original cached feature replay; no training or selection",
+  "models": 21,
+  "splits": 2,
+  "model_split_replays": 42,
+  "item_predictions": 25200,
+  "class_mismatches": 0,
+  "max_probability_difference": 4.172325134277344e-07,
+  "max_metric_difference": 3.3462415283125324e-08,
+  "paired_metric_intervals_verified": 70,
+  "max_interval_difference": 3.407464166382823e-08,
+  "absolute_tolerance": 1e-06,
+  "torch": "2.11.0+cpu",
+  "numpy": "2.3.5",
+  "python": "3.12.14",
+  "device": "cpu",
+  "batch_size": 128,
+  "original_evaluation_runtime": {
+    "device": "cpu",
+    "torch": "2.11.0+cu130",
+    "numpy": "2.2.6"
+  },
+  "limitations": [
+    "Replay consumes the locked CLIP feature caches; raw image decoding/CLIP encoding was not repeated.",
+    "Hashes establish file identity, not independence or timing of historical data use.",
+    "200-image supplementary set overlaps prior preparation records; do not describe it as globally unseen.",
+    "Bootstrap fixes the three trained seeds, is image-paired percentile 95%, and is not multiplicity corrected.",
+    "Teacher evaluation on 200 and full pipeline T4 costs remain P1 work."
+  ]
+}

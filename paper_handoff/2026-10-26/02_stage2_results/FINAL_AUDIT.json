@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "archive_sha256": "aebcae4f2ed585cce01d5d8d22ddcbfcb04e7c7eed6281e41ef198ef4b02783e",
+  "verified_files": 199,
+  "protocol_files_matched": 76,
+  "models": 21,
+  "metric_rows": 72,
+  "probability_rows": 43200,
+  "metrics_max_abs_error": 2.220446049250313e-16,
+  "cpu_replay_model_split_pairs": 63,
+  "cpu_replay_max_abs_logit_difference": 1.6689300537109375e-06,
+  "cpu_replay_prediction_mismatches": 0,
+  "paired_intervals": 68,
+  "bootstrap_repeats": 10000,
+  "bootstrap_shared_frozen_draws": true,
+  "direct_draw_validation": true,
+  "training": false,
+  "temperature_refit": false,
+  "scope": "Previously opened evaluation sets; supplementary evaluation. Fixed-seed image bootstrap does not remove selection bias."
+}

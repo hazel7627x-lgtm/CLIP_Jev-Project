@@ -1,0 +1,170 @@
+[
+  {
+    "method": "CE",
+    "seed": 20261010,
+    "checkpoint": "/content/drive/MyDrive/1013实验成果包与结论/10月13日_任务交付/reused_v1/students/CE_20261010.pt",
+    "checkpoint_sha256": "5f6924d455ab0c1ff2d0438a3665cdae887543b2474b76dae2c530e70d9f4086",
+    "local_path": "C:\\Users\\2006\\Documents\\ChatGPT\\CLIP科研\\work\\ablation_20261013\\final_delivery\\reused_v1\\students\\CE_20261010.pt",
+    "source_package": "原1013完整交付"
+  },
+  {
+    "method": "CE",
+    "seed": 20261011,
+    "checkpoint": "/content/drive/MyDrive/1013实验成果包与结论/10月13日_任务交付/reused_v1/students/CE_20261011.pt",
+    "checkpoint_sha256": "c5280570f7b8e3ccf5f7b5882e01cc4fcb4ee7e3932e947a2bcd28d67434a8e2",
+    "local_path": "C:\\Users\\2006\\Documents\\ChatGPT\\CLIP科研\\work\\ablation_20261013\\final_delivery\\reused_v1\\students\\CE_20261011.pt",
+    "source_package": "原1013完整交付"
+  },
+  {
+    "method": "CE",
+    "seed": 20261012,
+    "checkpoint": "/content/drive/MyDrive/1013实验成果包与结论/10月13日_任务交付/reused_v1/students/CE_20261012.pt",
+    "checkpoint_sha256": "6999f91685341f1c39798b0769ac3eb7eb1b30bd59491cbf4c6269bea7fe1db5",
+    "local_path": "C:\\Users\\2006\\Documents\\ChatGPT\\CLIP科研\\work\\ablation_20261013\\final_delivery\\reused_v1\\students\\CE_20261012.pt",
+    "source_package": "原1013完整交付"
+  },
+  {
+    "method": "KD_hard",
+    "seed": 20261010,
+    "checkpoint": "/content/drive/MyDrive/1013实验成果包与结论/10月13日_任务交付/runs/KD_hard_20261010/best.pt",
+    "checkpoint_sha256": "df02732239a25429d92574623a67b0cdd6f214783fdc064ff1e3f8f57a1e08d6",
+    "local_path": "C:\\Users\\2006\\Documents\\ChatGPT\\CLIP科研\\work\\ablation_20261013\\final_delivery\\runs\\KD_hard_20261010\\best.pt",
+    "source_package": "原1013完整交付"
+  },
+  {
+    "method": "KD_hard",
+    "seed": 20261011,
+    "checkpoint": "/content/drive/MyDrive/1013实验成果包与结论/10月13日_任务交付/runs/KD_hard_20261011/best.pt",
+    "checkpoint_sha256": "6154a6192df7b72dc3b4576910908c6ff5b6c44e888aacf438f912482a192182",
+    "local_path": "C:\\Users\\2006\\Documents\\ChatGPT\\CLIP科研\\work\\ablation_20261013\\final_delivery\\runs\\KD_hard_20261011\\best.pt",
+    "source_package": "原1013完整交付"
+  },
+  {
+    "method": "KD_hard",
+    "seed": 20261012,
+    "checkpoint": "/content/drive/MyDrive/1013实验成果包与结论/10月13日_任务交付/runs/KD_hard_20261012/best.pt",
+    "checkpoint_sha256": "72854ba6c1490cd3ab7b6ca13f7dac824041abb6c23db5171edc39acabb3df38",
+    "local_path": "C:\\Users\\2006\\Documents\\ChatGPT\\CLIP科研\\work\\ablation_20261013\\final_delivery\\runs\\KD_hard_20261012\\best.pt",
+    "source_package": "原1013完整交付"
+  },
+  {
+    "method": "KD_raw",
+    "seed": 20261010,
+    "checkpoint": "/content/drive/MyDrive/1013实验成果包与结论/10月13日_任务交付/reused_alpha/runs/KD_raw_alpha0.75_20261010/best.pt",
+    "checkpoint_sha256": "ff230d6d4eb6f28b2a9353dda134f79ffb922db4b15eea23e02196b17344e6fb",
+    "local_path": "C:\\Users\\2006\\Documents\\ChatGPT\\CLIP科研\\work\\ablation_20261013\\final_delivery\\reused_alpha\\runs\\KD_raw_alpha0.75_20261010\\best.pt",
+    "source_package": "原1013完整交付"
+  },
+  {
+    "method": "KD_raw",
+    "seed": 20261011,
+    "checkpoint": "/content/drive/MyDrive/1013实验成果包与结论/10月13日_任务交付/reused_alpha/runs/KD_raw_alpha0.75_20261011/best.pt",
+    "checkpoint_sha256": "f2908c38e78a4042bf48c1ec2ab47f8b6a9c238ec617f0c1fad911e4bb96eebd",
+    "local_path": "C:\\Users\\2006\\Documents\\ChatGPT\\CLIP科研\\work\\ablation_20261013\\final_delivery\\reused_alpha\\runs\\KD_raw_alpha0.75_20261011\\best.pt",
+    "source_package": "原1013完整交付"
+  },
+  {
+    "method": "KD_raw",
+    "seed": 20261012,
+    "checkpoint": "/content/drive/MyDrive/1013实验成果包与结论/10月13日_任务交付/reused_alpha/runs/KD_raw_alpha0.75_20261012/best.pt",
+    "checkpoint_sha256": "31302dfa018280a62b3c4e023973c0c2359d46241f81fb285ab6c9b8b34dc60f",
+    "local_path": "C:\\Users\\2006\\Documents\\ChatGPT\\CLIP科研\\work\\ablation_20261013\\final_delivery\\reused_alpha\\runs\\KD_raw_alpha0.75_20261012\\best.pt",
+    "source_package": "原1013完整交付"
+  },
+  {
+    "method": "KD_calibrated",
+    "seed": 20261010,
+    "checkpoint": "/content/drive/MyDrive/1013实验成果包与结论/10月13日_任务交付/reused_alpha/runs/KD_calibrated_alpha0.75_20261010/best.pt",
+    "checkpoint_sha256": "4aff4cb7f33704111782bc337852367051cf531cd3bc67f16e81e1a4b010ad36",
+    "local_path": "C:\\Users\\2006\\Documents\\ChatGPT\\CLIP科研\\work\\ablation_20261013\\final_delivery\\reused_alpha\\runs\\KD_calibrated_alpha0.75_20261010\\best.pt",
+    "source_package": "原1013完整交付"
+  },
+  {
+    "method": "KD_calibrated",
+    "seed": 20261011,
+    "checkpoint": "/content/drive/MyDrive/1013实验成果包与结论/10月13日_任务交付/reused_alpha/runs/KD_calibrated_alpha0.75_20261011/best.pt",
+    "checkpoint_sha256": "fc9f840681736d9b1e3b32649f0bee689e131c0b8f3a69d67591288fcb2b9e47",
+    "local_path": "C:\\Users\\2006\\Documents\\ChatGPT\\CLIP科研\\work\\ablation_20261013\\final_delivery\\reused_alpha\\runs\\KD_calibrated_alpha0.75_20261011\\best.pt",
+    "source_package": "原1013完整交付"
+  },
+  {
+    "method": "KD_calibrated",
+    "seed": 20261012,
+    "checkpoint": "/content/drive/MyDrive/1013实验成果包与结论/10月13日_任务交付/reused_alpha/runs/KD_calibrated_alpha0.75_20261012/best.pt",
+    "checkpoint_sha256": "96a83fd1f35da9f5021a6ea69dcec7a2508f9e543de8b4c7bc16aef0d8bc9e5c",
+    "local_path": "C:\\Users\\2006\\Documents\\ChatGPT\\CLIP科研\\work\\ablation_20261013\\final_delivery\\reused_alpha\\runs\\KD_calibrated_alpha0.75_20261012\\best.pt",
+    "source_package": "原1013完整交付"
+  },
+  {
+    "method": "CE_image",
+    "seed": 20261010,
+    "checkpoint": "/content/drive/MyDrive/1013实验成果包与结论/10月13日_任务交付/runs/CE_image_20261010/best.pt",
+    "checkpoint_sha256": "b8af44c722d9bddee3c4eebb3815229bdc17935b5dad2f3458b29d6d65674e44",
+    "local_path": "C:\\Users\\2006\\Documents\\ChatGPT\\CLIP科研\\work\\ablation_20261013\\final_delivery\\runs\\CE_image_20261010\\best.pt",
+    "source_package": "原1013完整交付"
+  },
+  {
+    "method": "CE_image",
+    "seed": 20261011,
+    "checkpoint": "/content/drive/MyDrive/1013实验成果包与结论/10月13日_任务交付/runs/CE_image_20261011/best.pt",
+    "checkpoint_sha256": "2addd69d64fe36a054df686d67bfbeef3ee9faaeafc9affe2e60034a57085e2d",
+    "local_path": "C:\\Users\\2006\\Documents\\ChatGPT\\CLIP科研\\work\\ablation_20261013\\final_delivery\\runs\\CE_image_20261011\\best.pt",
+    "source_package": "原1013完整交付"
+  },
+  {
+    "method": "CE_image",
+    "seed": 20261012,
+    "checkpoint": "/content/drive/MyDrive/1013实验成果包与结论/10月13日_任务交付/runs/CE_image_20261012/best.pt",
+    "checkpoint_sha256": "cbda05cf1f2fe20c26256f17d169122079952931f77ef1081f7b349c0b57523e",
+    "local_path": "C:\\Users\\2006\\Documents\\ChatGPT\\CLIP科研\\work\\ablation_20261013\\final_delivery\\runs\\CE_image_20261012\\best.pt",
+    "source_package": "原1013完整交付"
+  },
+  {
+    "method": "CE_text",
+    "seed": 20261010,
+    "checkpoint": "/content/drive/MyDrive/1013实验成果包与结论/10月13日_任务交付/runs/CE_text_20261010/best.pt",
+    "checkpoint_sha256": "f7cbbf63e49f79171707fe5b6758cc3f829086a0aabe804422cb2dab9dbd90f4",
+    "local_path": "C:\\Users\\2006\\Documents\\ChatGPT\\CLIP科研\\work\\ablation_20261013\\final_delivery\\runs\\CE_text_20261010\\best.pt",
+    "source_package": "原1013完整交付"
+  },
+  {
+    "method": "CE_text",
+    "seed": 20261011,
+    "checkpoint": "/content/drive/MyDrive/1013实验成果包与结论/10月13日_任务交付/runs/CE_text_20261011/best.pt",
+    "checkpoint_sha256": "1c947ff22cbb89d8487c79011045bae869e77073b9a1b685c420391d4c9de4dc",
+    "local_path": "C:\\Users\\2006\\Documents\\ChatGPT\\CLIP科研\\work\\ablation_20261013\\final_delivery\\runs\\CE_text_20261011\\best.pt",
+    "source_package": "原1013完整交付"
+  },
+  {
+    "method": "CE_text",
+    "seed": 20261012,
+    "checkpoint": "/content/drive/MyDrive/1013实验成果包与结论/10月13日_任务交付/runs/CE_text_20261012/best.pt",
+    "checkpoint_sha256": "55cef2ae0a51f3963e850daa75d4758ee6a0c58df1e2769d0c15b456ee9b9a75",
+    "local_path": "C:\\Users\\2006\\Documents\\ChatGPT\\CLIP科研\\work\\ablation_20261013\\final_delivery\\runs\\CE_text_20261012\\best.pt",
+    "source_package": "原1013完整交付"
+  },
+  {
+    "method": "KD_base",
+    "seed": 20261010,
+    "checkpoint": "/content/drive/MyDrive/CLIP_Jev_final_round_20261013_v1/base_runs/20261010/best.pt",
+    "checkpoint_sha256": "b245dbf845a23f8eb7888f809575489e4e77b084126e463118c8329697c80af0",
+    "local_path": "C:\\Users\\2006\\Documents\\ChatGPT\\CLIP科研\\work\\project_review_20261013\\received\\base_runs\\20261010\\best.pt",
+    "source_package": "final_round"
+  },
+  {
+    "method": "KD_base",
+    "seed": 20261011,
+    "checkpoint": "/content/drive/MyDrive/CLIP_Jev_final_round_20261013_v1/base_runs/20261011/best.pt",
+    "checkpoint_sha256": "1ba0e3edca3aaa9fac8e6c7846bb800db35a30ed34f670f75265f183ea88b80f",
+    "local_path": "C:\\Users\\2006\\Documents\\ChatGPT\\CLIP科研\\work\\project_review_20261013\\received\\base_runs\\20261011\\best.pt",
+    "source_package": "final_round"
+  },
+  {
+    "method": "KD_base",
+    "seed": 20261012,
+    "checkpoint": "/content/drive/MyDrive/CLIP_Jev_final_round_20261013_v1/base_runs/20261012/best.pt",
+    "checkpoint_sha256": "15382f1f3eabf73af7de11032d6ba535e7a4eb7effb4e750a90b2d8fc84804e3",
+    "local_path": "C:\\Users\\2006\\Documents\\ChatGPT\\CLIP科研\\work\\project_review_20261013\\received\\base_runs\\20261012\\best.pt",
+    "source_package": "final_round"
+  }
+]
